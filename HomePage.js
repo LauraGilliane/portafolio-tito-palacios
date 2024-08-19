@@ -1,0 +1,585 @@
+// Dados dos modais
+const modaisData = {
+    "modal-1": {
+      cards: [
+        {
+          imgSrc: "assets/humanoBipolar.JPG",
+          titulo: "Bipolar",
+          tecnica: "acrílico sobre tela screen",
+          dimensiones: "53 x 33 cm",
+          colorClass: "modal-color1"
+        },
+        {
+          imgSrc: "assets/humanp.jpeg",
+          titulo: "Título 2",
+          tecnica: "Técnica 2",
+          dimensiones: "Dimensões 2",
+          colorClass: "modal-color2"
+        },
+        {
+            imgSrc: "assets/humanoOraculo.JPG",
+            titulo: "El Oráculo",
+            tecnica: "acrílico sobre papel artesanal y yute con plumas y ramas",
+            dimensiones: "49 x 34 cm",
+            colorClass: "modal-color1"
+          },
+        {
+          imgSrc: "assets/humanoLadoOscuro.JPG",
+          titulo: "Todos tenemos un lado oscuro",
+          tecnica: "mixta sobre cartón",
+          dimensiones: "82 x 67 cm",
+          colorClass: "modal-color2"
+        },
+        {
+          imgSrc: "assets/humanoSimbiosis.JPG",
+          titulo: "Simbiosis",
+          tecnica: "acrílico sobre tela screen.",
+          dimensiones: "50 x 40 cm",
+          colorClass: "modal-color1"
+        },
+        {
+          imgSrc: "assets/humanoObservador.JPG",
+          titulo: "El Observador",
+          tecnica: "acrílico sobre tela screen",
+          dimensiones: "52 x 42 cm",
+          colorClass: "modal-color1"
+        },
+        {
+          imgSrc: "assets/humanoDeidad.JPG",
+          titulo: "Deidad Ancestral",
+          tecnica: "acrílico sobre tela screen",
+          dimensiones: "64 x 54 cm",
+          colorClass: "modal-color2"
+        },
+        {
+          imgSrc: "assets/humano.jpeg",
+          titulo: "",
+          tecnica: "",
+          dimensiones: "",
+          colorClass: "modal-color1"
+        }
+      ]
+    },
+    "modal-2": {
+      cards: [
+        {
+          imgSrc: "assets/caricaturaCR7.jpeg",
+          titulo: "Cristiano Ronaldo",
+          tecnica: "Técnica 3",
+          dimensiones: "Dimensões 3",
+          colorClass: "modal-color1"
+        },
+        {
+          imgSrc: "assets/caricaturaSuarez.jpeg",
+          titulo: "Suarez",
+          tecnica: "Técnica 4",
+          dimensiones: "Dimensões 4",
+          colorClass: "modal-color2"
+        },
+        {
+          imgSrc: "assets/caricaturaMessi.jpeg",
+          titulo: "Messi",
+          tecnica: "Técnica 4",
+          dimensiones: "Dimensões 4",
+          colorClass: "modal-color2"
+        }
+      ]
+    },
+    "modal-5": {
+      cards: [
+        {
+          imgSrc: "assets/natBorboleta.png",
+          titulo: "Título 3",
+          tecnica: "Técnica 3",
+          dimensiones: "Dimensões 3",
+          colorClass: "modal-color1"
+        },
+        {
+          imgSrc: "assets/naturalezaarvore.png",
+          titulo: "Título 4",
+          tecnica: "Técnica 4",
+          dimensiones: "Dimensões 4",
+          colorClass: "modal-color2"
+        },
+        {
+          imgSrc: "assets/natUniverso.png",
+          titulo: "Título 4",
+          tecnica: "Técnica 4",
+          dimensiones: "Dimensões 4",
+          colorClass: "modal-color1"
+        },
+        {
+          imgSrc: "assets/naturalezaArb.jpeg",
+          titulo: "Título 4",
+          tecnica: "Técnica 4",
+          dimensiones: "Dimensões 4",
+          colorClass: "modal-color2"
+        }
+      ]
+    },
+    "modal-6": {
+      cards: [
+        {
+          imgSrc: "assets/leyendasMujer.png",
+          titulo: "Casa 1028",
+          tecnica: "Técnica 3",
+          dimensiones: "69 x 72 x 47 x 68",
+          colorClass: "modal-color1"
+        },
+        {
+            imgSrc: "assets/casa10281.png",
+            titulo: "Casa 1028",
+            tecnica: "Técnica 3",
+            dimensiones: "74 x 765 x 51 x 68",
+            colorClass: "modal-color2"
+          },
+          {
+            imgSrc: "assets/casa10282.png",
+            titulo: "Casa 1028",
+            tecnica: "Técnica 3",
+            dimensiones: " 74 x 765 x 51 x 68",
+            colorClass: "modal-color1"
+          },
+        {
+          imgSrc: "assets/catuna2.png",
+          titulo: "Catuña",
+          tecnica: "Técnica 4",
+          dimensiones: "106 x 80",
+          colorClass: "modal-color1"
+        },
+        {
+          imgSrc: "assets/leyendasPacto.png",
+          titulo: "Cantuña",
+          tecnica: "Técnica 4",
+          dimensiones: "107 x 80",
+          colorClass: "modal-color2"
+        },
+        {
+          imgSrc: "assets/elgallodelacatedral.png",
+          titulo: "El Gallo de La Catedral",
+          tecnica: "Técnica 4",
+          dimensiones: "Dimensões 4",
+          colorClass: "modal-color1"
+        },
+        {
+          imgSrc: "assets/elPadreAlmeida3.png",
+          titulo: "El Padre Almeida",
+          tecnica: "Técnica 4",
+          dimensiones: "36 x 172 x 74 x 146",
+          colorClass: "modal-color2"
+        },
+        {
+          imgSrc: "assets/elPadreAlmeida2.png",
+          titulo: "El Padre Almeida",
+          tecnica: "Técnica 4",
+          dimensiones: "107 x 75",
+          colorClass: "modal-color1"
+        },
+        {
+          imgSrc: "assets/elPadreAlmeida1.png",
+          titulo: "El Padre Almeida",
+          tecnica: "Técnica 4",
+          dimensiones: "107 x 75",
+          colorClass: "modal-color2"
+        },
+        {
+          imgSrc: "assets/leyendasDuende.png",
+          titulo: "El Duende",
+          tecnica: "Técnica 4",
+          dimensiones: "107 x 150 x 42.5 x 134",
+          colorClass: "modal-color1"
+        }
+      ]
+    },
+    "modal-7": {
+        cards: [
+          {
+            imgSrc: "assets/camisaF.png",
+            titulo: "Título 3",
+            tecnica: "Técnica 3",
+            dimensiones: "Dimensões 3",
+            colorClass: "modal-color1"
+          },
+          {
+            imgSrc: "assets/camisaM.png",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            colorClass: "modal-color2"
+          },
+          {
+            imgSrc: "assets/camisaF2.png",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            colorClass: "modal-color2"
+          },
+          {
+            imgSrc: "assets/camisaM2.png",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            colorClass: "modal-color1"
+          }          ,
+          {
+            imgSrc: "assets/camisaF3.png",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            colorClass: "modal-color1"
+          }
+        ]
+      }
+  };
+  
+  // Função para criar o modal
+  function createModal(modalId) {
+    const modalData = modaisData[modalId];
+  
+    if (!modalData) return;
+  
+    const modal = document.createElement('div');
+    modal.id = `myModal-${modalId}`;
+    modal.className = 'modal';
+  
+    // Cria o conteúdo do modal dinamicamente
+    const cardsHtml = modalData.cards.map(card => `
+      <div class="modal-card ${card.colorClass || 'modal-color1'} flex">
+        <div class="modal-img flex">
+          <img src="${card.imgSrc}" alt="">
+        </div>
+        <div class="modal-description flex">
+          <p class="font">Título: ${card.titulo}</p>
+          <br>
+          <p>Técnica: ${card.tecnica}</p>
+          <br>
+          <p>Dimensiones: ${card.dimensiones}</p>
+        </div>
+      </div>
+    `).join('');
+  
+    modal.innerHTML = `
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-container-card flex">
+          ${cardsHtml}
+        </div>
+      </div>
+    `;
+  
+    document.body.appendChild(modal);
+  
+    // Adiciona event listener para fechar o modal
+    modal.querySelector('.close').addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+  
+    // Fecha o modal se o usuário clicar fora da modal-content
+    window.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  
+    return modal;
+  }
+  
+  // Função para criar os cards
+  function createObrasCards(data) {
+    const container = document.getElementById('obras');
+    container.innerHTML = ''; // Limpa o conteúdo atual do container
+  
+    data.forEach((item) => {
+      const card = document.createElement('div');
+      card.className = 'obrasCard';
+  
+      const opacoDiv = document.createElement('div');
+      opacoDiv.className = `opaco ${item.opacoClass}`;
+      card.appendChild(opacoDiv);
+  
+      if (item.imgSrc) {
+        const img = document.createElement('img');
+        img.src = item.imgSrc;
+        img.className = 'imgObras'
+        img.alt = '';
+        card.appendChild(img);
+      } else {
+        // Adiciona uma div de fallback caso não tenha imagem
+        const placeholder = document.createElement('div');
+        placeholder.className = 'placeholder';
+        placeholder.textContent = 'Sem Imagem';
+        card.appendChild(placeholder);
+      }
+  
+      const semiCirclePanel = document.createElement('div');
+      semiCirclePanel.className = 'semi-circle-panel';
+      if (item.buttonId) {
+          semiCirclePanel.id = item.buttonId; // Usar o ID definido nos dados
+      }
+
+      // Adiciona o título ao semi-círculo
+      const title = document.createElement('div');
+      title.className = 'title';
+      title.textContent = item.title;
+      semiCirclePanel.appendChild(title);
+
+      card.appendChild(semiCirclePanel);
+
+  
+      container.appendChild(card);
+    });
+  }
+  
+  // Cria os cards e modais ao carregar a página
+  document.addEventListener('DOMContentLoaded', () => {
+    // Exemplo de dados de cards
+    const obrasData = [
+      {
+        imgSrc: "assets/humanoSimbiosis.JPG",
+        title: "HUMANO",
+        opacoClass: "color1",
+        buttonId: "modal-1"
+      },
+      {
+        imgSrc: "assets/caricaturaMessi.jpeg",
+        title: "CARICATURAS",
+        opacoClass: "color2",
+        buttonId: "modal-2"
+      },
+      {
+        imgSrc: "assets/image 66 (1).png",
+        title: "RETRATOS",
+        opacoClass: "color1",
+        buttonId: "modal-3"
+      },
+      {
+        imgSrc: "assets/image 66 (1).png",
+        title: "Pintura En Tela",
+        opacoClass: "color2",
+        buttonId: "modal-4"
+      },
+      {
+        imgSrc: "assets/naturalezaarvore.png",
+        title: "NATURALEZA",
+        opacoClass: "color2",
+        buttonId: "modal-5"
+      },
+      {
+        imgSrc: "assets/elgallodelacatedral.png",
+        title:"Leyendas  De  Quito",
+        opacoClass: "color1",
+        buttonId: "modal-6"
+      },
+      {
+        imgSrc: "assets/camisaM2.png",
+        title: "CAMISETAS",
+        opacoClass: "color2",
+        buttonId: "modal-7"
+      },
+      {
+        imgSrc: "assets/image 66 (1).png",
+        title: "TAPICES",
+        opacoClass: "color1",
+        buttonId: "modal-8"
+      },
+      // Adicione mais cards conforme necessário
+    ];
+  
+    createObrasCards(obrasData);
+  
+    // Cria e adiciona modais para cada card com um ID de botão
+    Object.keys(modaisData).forEach(modalId => {
+      createModal(modalId);
+      document.getElementById(modalId).addEventListener('click', () => {
+        document.getElementById(`myModal-${modalId}`).style.display = 'block';
+      });
+    });
+  });
+  
+  // Defina os dados para cada modal aqui
+const talleresData = {
+    "taller-1": {
+        titulo: "Título Taller 1",
+        descricao: "Descrição detalhada do Taller 1.",
+        imgSrc: "assets/nocambiasPropaganda.jpeg",
+        videos: [
+            "assets/video1.mp4",
+            "assets/video2.mp4"
+        ],
+        imagens: [
+            "assets/image1.png",
+            "assets/image2.png"
+        ]
+    },
+    "taller-2": {
+        titulo: "No Cambies. Transfórmate",
+        descricao: `El curso "No Cambies. Transfórmate" fue una experiencia transformadora que combinó distintas herramientas para fomentar el crecimiento personal y el autoconocimiento. A lo largo de cinco semanas, con diez clases intensivas de 90 minutos cada una, los participantes se sumergieron en un proceso profundo de autodescubrimiento.
+        <br>El curso comenzó con una introducción al uso del Arte como medio de expresión y transformación, permitiendo a los participantes explorar su creatividad y conectar con sus emociones de una manera nueva y significativa. La Meditación y el Mindfulness jugaron un papel crucial en ayudar a los participantes a centrar su mente, calmar sus pensamientos y vivir en el momento presente. Estas prácticas permitieron a los asistentes manejar el estrés y las emociones de manera más efectiva.<br>
+        A medida que avanzaban las semanas, los ejercicios mentales y sensoriales se intensificaron, desafiando a los participantes a superar sus limitaciones y activar todo su potencial interior. Estos ejercicios fueron diseñados para desarrollar la resiliencia mental, mejorar la claridad de pensamiento y fomentar una mayor conexión con uno mismo y con el entorno.
+        Cada clase estuvo llena de momentos de introspección, pero también de colaboración, donde los participantes compartieron sus experiencias y aprendieron unos de otros. El taller no solo se centró en la teoría, sino que fue eminentemente práctico, con actividades diseñadas para aplicar los conceptos en la vida diaria.<br>
+        Al final del curso, los participantes no solo adquirieron nuevas habilidades y herramientas, sino que también experimentaron una transformación personal significativa. Muchos de ellos reportaron sentirse más en control de sus pensamientos, más equilibrados emocionalmente, y con una mayor sensación de bienestar y satisfacción en sus vidas. El curso culminó con una reflexión sobre el viaje recorrido y la transformación alcanzada, dejando a los participantes con un sentido de logro y la motivación para continuar su crecimiento personal fuera del aula.`,
+        imgSrc: "assets/nocambiasPropaganda.jpeg",
+        videos: [
+            "assets/nocambies.mp4",
+            "assets/video4.mp4"
+        ],
+        imagens: [
+            "assets/image3.png",
+            "assets/image4.png"
+        ]
+    },
+    "taller-3": {
+        titulo: "Título Taller 3",
+        descricao: "Descrição detalhada do Taller 3.",
+        imgSrc: "assets/taller-image3.png",
+        videos: [
+            "assets/video5.mp4",
+            "assets/video6.mp4"
+        ],
+        imagens: [
+            "assets/image5.png",
+            "assets/image6.png"
+        ]
+    }
+};
+
+function createTallerModal(tallerId) {
+    const tallerData = talleresData[tallerId];
+    if (!tallerData) return;
+
+    const modalTaller = document.createElement('div');
+    modalTaller.id = `modal-taller-${tallerId}`;
+    modalTaller.className = 'modal-taller';
+
+    // Função para criar a lista de vídeos e imagens
+    const createMediaItems = (items, type) => {
+        return items.map(item => type === 'video' ? `
+            <div class="taller-conteudo">
+                <video controls>
+                    <source src="${item}" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+            </div>
+        ` : `
+            <div class="taller-conteudo">
+                <img src="${item}" alt="Imagem Taller">
+            </div>
+        `).join('');
+    };
+
+    const videosHtml = createMediaItems(tallerData.videos, 'video');
+    const imagensHtml = createMediaItems(tallerData.imagens, 'image');
+
+    modalTaller.innerHTML = `
+        <div class="modal-taller-content">
+            <span class="modal-taller-close">&times;</span>
+            <div class="modal-taller-header">
+                <h1>${tallerData.titulo}</h1>
+            </div>
+            <div class="description">${tallerData.descricao}</div>
+            <div class="modal-taller-image">
+                <img src="${tallerData.imgSrc}" alt="Imagem Taller">
+            </div>
+            <div class="modal-taller-body">
+                ${videosHtml}
+                ${imagensHtml}
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(modalTaller);
+
+    modalTaller.querySelector('.modal-taller-close').addEventListener('click', () => {
+        modalTaller.style.display = 'none';
+    });
+
+    window.addEventListener('click', (event) => {
+        if (event.target === modalTaller) {
+            modalTaller.style.display = 'none';
+        }
+    });
+
+    return modalTaller;
+}
+
+// Adicione event listeners aos cards
+document.querySelectorAll('.shape-center, .shape-horizontal').forEach((shape) => {
+    shape.addEventListener('click', () => {
+        const tallerId = shape.getAttribute('data-taller-id');
+        const modalTaller = document.getElementById(`modal-taller-${tallerId}`) || createTallerModal(tallerId);
+        modalTaller.style.display = 'block';
+    });
+});
+
+const decoracionesData = {
+    1: {
+        videos: ['assets/nocambies.mp4', 'video2.mp4'],
+        imagens: ['imagem1.png', 'imagem2.png']
+    },
+    2: {
+        videos: ['video3.mp4', 'video4.mp4'],
+        imagens: ['imagem3.png', 'imagem4.png']
+    },
+    3: {
+        videos: ['assets/decRest.mp4', 'video6.mp4'],
+        imagens: ['imagem5.png', 'imagem6.png']
+    }
+};
+
+// Função para criar e mostrar o modal-decoracion
+function createDecoracionModal(decoracionId) {
+    const decoracionData = decoracionesData[decoracionId];
+    if (!decoracionData) return;
+
+    const modalDecoracion = document.createElement('div');
+    modalDecoracion.id = `modal-decoracion-${decoracionId}`;
+    modalDecoracion.className = 'modal-decoracion';
+
+    // Função para criar conteúdo do modal
+    const createContent = (items, type) => {
+        return items.map(item => type === 'video' ? `
+            <video controls>
+                <source src="${item}" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+        ` : `
+            <img src="${item}" alt="Imagem Decoracion">
+        `).join('');
+    };
+
+    const videosHtml = createContent(decoracionData.videos, 'video');
+    const imagensHtml = createContent(decoracionData.imagens, 'image');
+
+    modalDecoracion.innerHTML = `
+        <div class="modal-decoracion-content">
+            <span class="modal-decoracion-close">&times;</span>
+            <div class="modal-decoracion-body">
+                ${videosHtml}
+                ${imagensHtml}
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(modalDecoracion);
+
+    modalDecoracion.querySelector('.modal-decoracion-close').addEventListener('click', () => {
+        modalDecoracion.style.display = 'none';
+    });
+
+    window.addEventListener('click', (event) => {
+        if (event.target === modalDecoracion) {
+            modalDecoracion.style.display = 'none';
+        }
+    });
+
+    return modalDecoracion;
+}
+
+// Adicione event listeners aos itens
+document.querySelectorAll('.shape-center').forEach((shape) => {
+    shape.addEventListener('click', () => {
+        const decoracionId = shape.getAttribute('data-decoracion-id');
+        const modalDecoracion = document.getElementById(`modal-decoracion-${decoracionId}`) || createDecoracionModal(decoracionId);
+        modalDecoracion.style.display = 'block';
+    });
+});
