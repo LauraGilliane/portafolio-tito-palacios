@@ -229,7 +229,7 @@ const modaisData = {
             colorClass: "modal-color1"
           }
         ]
-      }
+    }
   };
   
   // Função para criar o modal
@@ -336,7 +336,7 @@ const modaisData = {
     const obrasData = [
       {
         imgSrc: "assets/humanoSimbiosis.JPG",
-        title: "HUMANO",
+        title: "Bellamente Humanos",
         opacoClass: "color1",
         buttonId: "modal-1"
       },
@@ -366,7 +366,7 @@ const modaisData = {
       },
       {
         imgSrc: "assets/elgallodelacatedral.png",
-        title:"Leyendas  De  Quito",
+        title:"ILUSTRACIONES",
         opacoClass: "color1",
         buttonId: "modal-6"
       },

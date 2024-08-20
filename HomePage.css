@@ -14,6 +14,11 @@ a {
     font-weight: 200;
     font-style: normal;
 }
+p {
+    font-family: "Metrophobic", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
 .flex {
     display: flex;
 }
@@ -120,11 +125,12 @@ a {
     width: 100vw;
 }
 .descricaoTito {
+    font-size: 1.2em;
     height: 60vh;
     margin-left: 10%;
     width: 45vw;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
 }
 
 .biografia > div > p {
@@ -860,5 +866,47 @@ footer h1 {
             opacity: 0.8;
             text-align: center;
             font-size: 0.8em;
+        }
+    
+        .biografia .container {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .biografia {
+            height: auto; /* Ajusta a altura para acomodar o conteúdo */
+            padding: 0 5px; /* Reduz o padding lateral para dispositivos pequenos */
+        }
+    
+        .groupBio {
+            width: 100%; /* Ocupa toda a largura disponível */
+            flex-direction: column; /* Empilha o título e a imagem verticalmente */
+            align-items: center; /* Centraliza o conteúdo horizontalmente */
+            margin-bottom: 10px; /* Espaço abaixo do grupo */
+        }
+    
+        .image {
+            width: 100%; /* Ajusta a largura da imagem para 100% */
+            margin-bottom: 10px; /* Espaço abaixo da imagem */
+            position: relative; /* Permite o posicionamento do título sobre a imagem */
+        }
+    
+        .image img {
+            width: 100%; /* Ajusta a largura da imagem para 100% do container */
+            height: auto; /* Mantém a proporção da imagem */
+    }
+    
+    
+        .imgTito {
+            width: 60%; /* Ajusta a largura da imagem para 100% */
+            margin-bottom: 20px; /* Espaço abaixo da imagem */
+        }
+    
+        .descricaoTito {
+            justify-content: start;
+            font-size: 0.7rem;
+            width: 85%; /* Ajusta a largura da descrição para 100% */
+            margin-left: 0; /* Remove a margem esquerda */
         }
 }
