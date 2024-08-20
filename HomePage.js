@@ -583,3 +583,57 @@ document.querySelectorAll('.shape-center').forEach((shape) => {
         modalDecoracion.style.display = 'block';
     });
 });
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const shapesContainer = document.querySelector('.talleres .shapes-container');
+  const shapes = document.querySelectorAll('.talleres .shape-center, .talleres .shape-horizontal');
+
+  // Ajusta a opacidade inicial
+  shapes.forEach((shape, index) => {
+      shape.style.opacity = index === 0 ? '1' : '0.5';
+  });
+
+  // Garante que o primeiro card esteja visível ao carregar a página
+  shapesContainer.scrollLeft = 0;
+
+  shapesContainer.addEventListener('scroll', () => {
+      shapes.forEach((shape) => {
+          const shapeRect = shape.getBoundingClientRect();
+          const containerRect = shapesContainer.getBoundingClientRect();
+
+          if (shapeRect.left >= containerRect.left && shapeRect.right <= containerRect.right) {
+              shape.style.opacity = '1'; // Card central com opacidade plena
+          } else {
+              shape.style.opacity = '0.5'; // Cards laterais opacos
+          }
+      });
+  });
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById('obras');
+  const cards = container.querySelectorAll('.obrasCard');
+
+  // Atualiza a opacidade dos cards com base na rolagem
+  function updateCardOpacity() {
+      const containerRect = container.getBoundingClientRect();
+      
+      cards.forEach(card => {
+          const cardRect = card.getBoundingClientRect();
+          const isVisible = cardRect.left >= containerRect.left && cardRect.right <= containerRect.right;
+          
+          card.style.opacity = isVisible ? '1' : '0.5'; // Define a opacidade do card
+      });
+  }
+
+  // Inicializa a opacidade dos cards ao carregar a página
+  updateCardOpacity();
+
+  // Atualiza a opacidade dos cards ao rolar
+  container.addEventListener('scroll', updateCardOpacity);
+});

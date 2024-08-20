@@ -1,76 +1,23 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilos do nav */
-.nav-responsivo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background-color: #333;
-    color: #fff;
-    position: relative;
-}
-
-/* Logo */
-.logo-responsivo img {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-}
-
-/* Menu Toggle (hamburguer) */
-.menu-toggle-responsivo {
-    display: flex; /* Sempre exibe o botão de menu */
-    flex-direction: column;
-    gap: 4px;
-    cursor: pointer;
-    z-index: 10; /* Garante que o botão de menu esteja acima do menu lateral */
-}
-
-/* Barras do hamburguer */
-.menu-toggle-responsivo .bar-responsivo {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 5px;
-}
-
-/* Estilos do menu lateral */
-.side-menu-responsivo {
-    position: fixed;
-    top: 0;
-    right: -250px; /* Esconde o menu fora da tela */
-    width: 250px;
-    height: 100%;
-    background-color: #333;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-    transition: right 0.3s ease; /* Animação para deslizamento */
-    z-index: 9; /* Garante que o menu lateral esteja sobre o conteúdo */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.side-menu-responsivo.active {
-    right: 0; /* Exibe o menu */
-}
-
-.side-menu-responsivo ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.side-menu-responsivo li {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.side-menu-responsivo a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
+@media (max-width: 768px) {
+    .shapes-container {
+        flex-direction: column; /* Empilhar os cards */
+        height: auto; /* Ajustar altura do container */
+    }
+    .shape-center {
+        width: 100%; /* Ocupa toda a largura disponível */
+        margin-bottom: 20px; /* Espaçamento entre os cards */
+    }
+    .semi-circle,
+    .semi-circle-right,
+    .rectangle {
+        width: 90%; /* Reduzir a largura das formas */
+        height: 25vh; /* Reduzir a altura das formas */
+    }
+    .decoraciones > .title {
+        width: 50%;
+        border-bottom: 4px solid #80221E;
+        height: auto;
+        font-size: 0.7rem;
+        border-top: 4px solid #80221E
+    }
 }
