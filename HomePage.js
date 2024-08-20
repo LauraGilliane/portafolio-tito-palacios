@@ -1,236 +1,46 @@
 // Dados dos modais
 const modaisData = {
-    "modal-1": {
-      cards: [
-        {
-          imgSrc: "assets/humanoBipolar.JPG",
-          titulo: "Bipolar",
-          tecnica: "acrílico sobre tela screen",
-          dimensiones: "53 x 33 cm",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/humanp.jpeg",
-          titulo: "Título 2",
-          tecnica: "Técnica 2",
-          dimensiones: "Dimensões 2",
-          colorClass: "modal-color2"
-        },
-        {
-            imgSrc: "assets/humanoOraculo.JPG",
-            titulo: "El Oráculo",
-            tecnica: "acrílico sobre papel artesanal y yute con plumas y ramas",
-            dimensiones: "49 x 34 cm",
-            colorClass: "modal-color1"
-          },
-        {
-          imgSrc: "assets/humanoLadoOscuro.JPG",
-          titulo: "Todos tenemos un lado oscuro",
-          tecnica: "mixta sobre cartón",
-          dimensiones: "82 x 67 cm",
-          colorClass: "modal-color2"
-        },
-        {
-          imgSrc: "assets/humanoSimbiosis.JPG",
-          titulo: "Simbiosis",
-          tecnica: "acrílico sobre tela screen.",
-          dimensiones: "50 x 40 cm",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/humanoObservador.JPG",
-          titulo: "El Observador",
-          tecnica: "acrílico sobre tela screen",
-          dimensiones: "52 x 42 cm",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/humanoDeidad.JPG",
-          titulo: "Deidad Ancestral",
-          tecnica: "acrílico sobre tela screen",
-          dimensiones: "64 x 54 cm",
-          colorClass: "modal-color2"
-        },
-        {
-          imgSrc: "assets/humano.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        }
-      ]
-    },
-    "modal-2": {
-      cards: [
-        {
-          imgSrc: "assets/caricaturaCR7.jpeg",
-          titulo: "Cristiano Ronaldo",
-          tecnica: "Técnica 3",
-          dimensiones: "Dimensões 3",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/caricaturaSuarez.jpeg",
-          titulo: "Suarez",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color2"
-        },
-        {
-          imgSrc: "assets/caricaturaMessi.jpeg",
-          titulo: "Messi",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color2"
-        }
-      ]
-    },
-    "modal-5": {
-      cards: [
-        {
-          imgSrc: "assets/natBorboleta.png",
-          titulo: "Título 3",
-          tecnica: "Técnica 3",
-          dimensiones: "Dimensões 3",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/naturalezaarvore.png",
-          titulo: "Título 4",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color2"
-        },
-        {
-          imgSrc: "assets/natUniverso.png",
-          titulo: "Título 4",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/naturalezaArb.jpeg",
-          titulo: "Título 4",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color2"
-        }
-      ]
-    },
-    "modal-6": {
-      cards: [
-        {
-          imgSrc: "assets/leyendasMujer.png",
-          titulo: "Casa 1028",
-          tecnica: "Técnica 3",
-          dimensiones: "69 x 72 x 47 x 68",
-          colorClass: "modal-color1"
-        },
-        {
-            imgSrc: "assets/casa10281.png",
-            titulo: "Casa 1028",
-            tecnica: "Técnica 3",
-            dimensiones: "74 x 765 x 51 x 68",
-            colorClass: "modal-color2"
-          },
-          {
-            imgSrc: "assets/casa10282.png",
-            titulo: "Casa 1028",
-            tecnica: "Técnica 3",
-            dimensiones: " 74 x 765 x 51 x 68",
-            colorClass: "modal-color1"
-          },
-        {
-          imgSrc: "assets/catuna2.png",
-          titulo: "Catuña",
-          tecnica: "Técnica 4",
-          dimensiones: "106 x 80",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/leyendasPacto.png",
-          titulo: "Cantuña",
-          tecnica: "Técnica 4",
-          dimensiones: "107 x 80",
-          colorClass: "modal-color2"
-        },
-        {
-          imgSrc: "assets/elgallodelacatedral.png",
-          titulo: "El Gallo de La Catedral",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/elPadreAlmeida3.png",
-          titulo: "El Padre Almeida",
-          tecnica: "Técnica 4",
-          dimensiones: "36 x 172 x 74 x 146",
-          colorClass: "modal-color2"
-        },
-        {
-          imgSrc: "assets/elPadreAlmeida2.png",
-          titulo: "El Padre Almeida",
-          tecnica: "Técnica 4",
-          dimensiones: "107 x 75",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/elPadreAlmeida1.png",
-          titulo: "El Padre Almeida",
-          tecnica: "Técnica 4",
-          dimensiones: "107 x 75",
-          colorClass: "modal-color2"
-        },
-        {
-          imgSrc: "assets/leyendasDuende.png",
-          titulo: "El Duende",
-          tecnica: "Técnica 4",
-          dimensiones: "107 x 150 x 42.5 x 134",
-          colorClass: "modal-color1"
-        }
-      ]
-    },
-    "modal-7": {
-        cards: [
-          {
-            imgSrc: "assets/camisaF.png",
-            titulo: "Título 3",
-            tecnica: "Técnica 3",
-            dimensiones: "Dimensões 3",
-            colorClass: "modal-color1"
-          },
-          {
-            imgSrc: "assets/camisaM.png",
-            titulo: "Título 4",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
-            colorClass: "modal-color2"
-          },
-          {
-            imgSrc: "assets/camisaF2.png",
-            titulo: "Título 4",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
-            colorClass: "modal-color2"
-          },
-          {
-            imgSrc: "assets/camisaM2.png",
-            titulo: "Título 4",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
-            colorClass: "modal-color1"
-          }          ,
-          {
-            imgSrc: "assets/camisaF3.png",
-            titulo: "Título 4",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
-            colorClass: "modal-color1"
-          }
-        ]
-    }
-  };
+  "modal-1": [
+    { imgSrc: "assets/humanoBipolar.JPG", titulo: "Bipolar", tecnica: "acrílico sobre tela screen", dimensiones: "53 x 33 cm", colorClass: "modal-color1" },
+    { imgSrc: "assets/humanp.jpeg", titulo: "Título 2", tecnica: "Técnica 2", dimensiones: "Dimensões 2", colorClass: "modal-color2" },
+    { imgSrc: "assets/humanoOraculo.JPG", titulo: "El Oráculo", tecnica: "acrílico sobre papel artesanal y yute con plumas y ramas", dimensiones: "49 x 34 cm", colorClass: "modal-color1" },
+    { imgSrc: "assets/humanoLadoOscuro.JPG", titulo: "Todos tenemos un lado oscuro", tecnica: "mixta sobre cartón", dimensiones: "82 x 67 cm", colorClass: "modal-color2" },
+    { imgSrc: "assets/humanoSimbiosis.JPG", titulo: "Simbiosis", tecnica: "acrílico sobre tela screen.", dimensiones: "50 x 40 cm", colorClass: "modal-color1" },
+    { imgSrc: "assets/humanoObservador.JPG", titulo: "El Observador", tecnica: "acrílico sobre tela screen", dimensiones: "52 x 42 cm", colorClass: "modal-color1" },
+    { imgSrc: "assets/humanoDeidad.JPG", titulo: "Deidad Ancestral", tecnica: "acrílico sobre tela screen", dimensiones: "64 x 54 cm", colorClass: "modal-color2" },
+    { imgSrc: "assets/humano.jpeg", titulo: "", tecnica: "", dimensiones: "", colorClass: "modal-color1" }
+  ],
+  "modal-2": [
+    { imgSrc: "assets/caricaturaCR7.jpeg", titulo: "Cristiano Ronaldo", tecnica: "Técnica 3", dimensiones: "Dimensões 3", colorClass: "modal-color1" },
+    { imgSrc: "assets/caricaturaSuarez.jpeg", titulo: "Suarez", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color2" },
+    { imgSrc: "assets/caricaturaMessi.jpeg", titulo: "Messi", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color2" }
+  ],
+  "modal-5": [
+    { imgSrc: "assets/natBorboleta.png", titulo: "Título 3", tecnica: "Técnica 3", dimensiones: "Dimensões 3", colorClass: "modal-color1" },
+    { imgSrc: "assets/naturalezaarvore.png", titulo: "Título 4", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color2" },
+    { imgSrc: "assets/natUniverso.png", titulo: "Título 4", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color1" },
+    { imgSrc: "assets/naturalezaArb.jpeg", titulo: "Título 4", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color2" }
+  ],
+  "modal-6": [
+    { imgSrc: "assets/leyendasMujer.png", titulo: "Casa 1028", tecnica: "Técnica 3", dimensiones: "69 x 72 x 47 x 68", colorClass: "modal-color1" },
+    { imgSrc: "assets/casa10281.png", titulo: "Casa 1028", tecnica: "Técnica 3", dimensiones: "74 x 765 x 51 x 68", colorClass: "modal-color2" },
+    { imgSrc: "assets/casa10282.png", titulo: "Casa 1028", tecnica: "Técnica 3", dimensiones: "74 x 765 x 51 x 68", colorClass: "modal-color1" },
+    { imgSrc: "assets/catuna2.png", titulo: "Catuña", tecnica: "Técnica 4", dimensiones: "106 x 80", colorClass: "modal-color1" },
+    { imgSrc: "assets/leyendasPacto.png", titulo: "Cantuña", tecnica: "Técnica 4", dimensiones: "107 x 80", colorClass: "modal-color2" },
+    { imgSrc: "assets/elgallodelacatedral.png", titulo: "El Gallo de La Catedral", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color1" },
+    { imgSrc: "assets/elPadreAlmeida3.png", titulo: "El Padre Almeida", tecnica: "Técnica 4", dimensiones: "36 x 172 x 74 x 146", colorClass: "modal-color2" },
+    { imgSrc: "assets/elPadreAlmeida2.png", titulo: "El Padre Almeida", tecnica: "Técnica 4", dimensiones: "107 x 75", colorClass: "modal-color1" },
+    { imgSrc: "assets/elPadreAlmeida1.png", titulo: "El Padre Almeida", tecnica: "Técnica 4", dimensiones: "107 x 75", colorClass: "modal-color2" },
+    { imgSrc: "assets/leyendasDuende.png", titulo: "El Duende", tecnica: "Técnica 4", dimensiones: "107 x 150 x 42.5 x 134", colorClass: "modal-color1" }
+  ],
+  "modal-7": [
+    { imgSrc: "assets/camisaF.png", titulo: "Título 3", tecnica: "Técnica 3", dimensiones: "Dimensões 3", colorClass: "modal-color1" },
+    { imgSrc: "assets/camisaM.png", titulo: "Título 4", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color2" },
+    { imgSrc: "assets/camisaF2.png", titulo: "Título 4", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color2" },
+    { imgSrc: "assets/camisaM2.png", titulo: "Título 4", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color1" },
+    { imgSrc: "assets/camisaF3.png", titulo: "Título 4", tecnica: "Técnica 4", dimensiones: "Dimensões 4", colorClass: "modal-color1" }
+  ]
+};
   
   // Função para criar o modal
   function createModal(modalId) {
@@ -585,9 +395,6 @@ document.querySelectorAll('.shape-center').forEach((shape) => {
 });
 
 
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
   const shapesContainer = document.querySelector('.talleres .shapes-container');
   const shapes = document.querySelectorAll('.talleres .shape-center, .talleres .shape-horizontal');
@@ -637,3 +444,24 @@ document.addEventListener('DOMContentLoaded', () => {
   // Atualiza a opacidade dos cards ao rolar
   container.addEventListener('scroll', updateCardOpacity);
 });
+document.addEventListener('scroll', function() {
+  const elements = document.querySelectorAll('.slide-in-right, .slide-in-left, .slide-in-top, .slide-in-responsive-left, .slide-in-responsive-right');
+  const windowHeight = window.innerHeight;
+
+  elements.forEach(element => {
+    const positionFromTop = element.getBoundingClientRect().top;
+    const positionFromBottom = element.getBoundingClientRect().bottom;
+    
+    if (positionFromTop - windowHeight <= 0 && positionFromBottom >= 0) {
+      element.classList.add('show');
+    } else {
+      element.classList.remove('show');
+    }
+  });
+});
+
+
+const hamburger = document.querySelector(".hamburger");
+const nav = document.querySelector(".nav");
+
+hamburger.addEventListener("click", () => nav.classList.toggle("active"));

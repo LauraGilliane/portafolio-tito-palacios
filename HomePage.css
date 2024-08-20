@@ -3,6 +3,26 @@
     padding: 0;
     overflow-x: hidden;
 }
+.slide-in-left {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  .slide-in-right {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  .slide-in-top {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .show {
+    opacity: 1;
+    transform: translateX(0);
+  }
 h1 {
     font-family: "Monoton", sans-serif;
     font-weight: 400;
@@ -34,48 +54,59 @@ section {
 }
 
 /* navBar */
-header {
-    position: relative; /* A navbar não será fixa */
-    z-index: 10; /* Garante que a navegação fique sobre o conteúdo */
+.header {
     width: 100%;
-    padding: 0.5vh;
-    height: 10vh;
-    background-color: transparent; /* Fundo transparente */
-}
-
-nav {
+    padding-inline: 16px;
+  }
+  
+  .nav {
+    margin-inline: auto;
+    padding: 10px 20px;
     display: flex;
-    justify-content: space-between; /* Espaça a logo e a lista de navegação */
+    justify-content: space-between;
     align-items: center;
-}
-
-.logoNav {
-    width: 10vw; /* Reduz a largura da logoNav */
-}
-
-.logoNav > img {
-    width: 50%; /* Torna a imagem da logo pequena */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
-nav > ul {
+  }
+  
+  .logo {
+    font-size: 15%;
+  }
+  
+  .nav-list {
     display: flex;
-    width: 60%;
-    align-items: center;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    margin: 0 2%;
+    gap: 32px;
     list-style: none;
-}
-
-a {
+  }
+  
+  .nav-list a {
+    font-size: 1.0rem;
     text-decoration: none;
-    color: rgb(255, 255, 255); /* Define a cor do texto dos links */
-}
+    color: #fff;
+  }
+  
+  .hero {
+    height: calc(100vh - 70px);
+    background: center / cover no-repeat url("./bg.jpg");
+  }
+  
+  .hamburger {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+  }
+  
+  .hamburger::after,
+  .hamburger::before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+  }
 /* inicio */
 .inicio {
     background-color: #80221e;
@@ -697,6 +728,23 @@ footer h1 {
 
 
 @media (max-width: 768px) {
+    .slide-in-responsive-left {
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    }
+    .slide-in-responsive-right {
+        opacity: 0;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    }
+    .show {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    h1 {
+        font-size: 1.3rem;
+    }
     .shapes-container {
         flex-direction: column; /* Empilhar os cards */
         height: auto; /* Ajustar altura do container */
@@ -749,7 +797,7 @@ footer h1 {
         scroll-padding: 0 20px; /* Ajuste para garantir que o primeiro card não seja cortado */
         -webkit-overflow-scrolling: touch; /* Suaviza a rolagem em dispositivos móveis */
         padding: 0 10px; /* Espaçamento horizontal adicional */
-        height: 50vh; /* Ajuste a altura conforme necessário */
+        height: 40vh; /* Ajuste a altura conforme necessário */
     }
     
     /* Oculta a barra de rolagem */
@@ -899,14 +947,100 @@ footer h1 {
     
     
         .imgTito {
-            width: 60%; /* Ajusta a largura da imagem para 100% */
+            width: 70%; /* Ajusta a largura da imagem para 100% */
             margin-bottom: 20px; /* Espaço abaixo da imagem */
         }
     
         .descricaoTito {
-            justify-content: start;
-            font-size: 0.7rem;
+            justify-content: center;
+            font-size: 0.9rem;
             width: 85%; /* Ajusta a largura da descrição para 100% */
             margin-left: 0; /* Remove a margem esquerda */
         }
+
+        .hamburger {
+            display: block;
+            z-index: 1;
+          }
+        
+          .nav-list {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(126, 5, 5, 0.578);
+            clip-path: circle(100px at 90% -15%);
+            transition: 1s ease-out;
+        
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            gap: 0;
+        
+            pointer-events: none;
+          }
+        .logo{
+            width: 15%;
+        }
+          .nav-list a {
+            font-size: 1.2rem;
+            opacity: 0;
+            width: 15%;
+          }
+          a > img {
+            width: 100%;
+          }
+          .nav-list li {
+            height: 6%;
+            font-size: 1.0rem;
+          }
+        
+          .nav-list li:nth-child(1) a {
+            transition: 0.5s 0.2s;
+          }
+        
+          .nav-list li:nth-child(2) a {
+            transition: 0.5s 0.4s;
+          }
+        
+          .nav-list li:nth-child(3) a {
+            transition: 0.5s 0.6s;
+          }
+        
+          /* Estilos ativos */
+        
+          .nav.active .nav-list {
+            clip-path: circle(1500px at 90% -15%);
+            pointer-events: all;
+          }
+        
+          .nav.active .nav-list a {
+            opacity: 1;
+          }
+        
+          .nav.active .hamburger {
+            position: fixed;
+            top: 26px;
+            right: 16px;
+            border-top-color: transparent;
+          }
+        
+          .nav.active .hamburger::before {
+            transform: rotate(135deg);
+          }
+        
+          .nav.active .hamburger::after {
+            transform: rotate(-135deg);
+            top: -7px;
+          }
+
+          .inicio{
+            background-size: 10% 5%;
+            background-repeat: repeat;
+          }
+          .inicio > img {
+            width: 80%;
+            margin-top: 35vh;
+          }
 }
