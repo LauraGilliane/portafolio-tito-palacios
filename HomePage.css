@@ -1069,4 +1069,9 @@ footer h1 {
             width: 80%;
             margin-top: 35vh;
           }
+          .no-scroll {
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+        }
 }

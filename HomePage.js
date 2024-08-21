@@ -807,14 +807,17 @@ document.addEventListener('scroll', function() {
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".nav");
 const navLinks = document.querySelectorAll(".nav-list a");
+const body = document.body;
 
 hamburger.addEventListener("click", () => {
-    nav.classList.toggle("active");
+    const isActive = nav.classList.toggle("active");
+    body.classList.toggle("no-scroll", isActive);
 });
 
 // Fechar o menu ao clicar em um link
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
         nav.classList.remove("active");
+        body.classList.remove("no-scroll");
     });
 });
