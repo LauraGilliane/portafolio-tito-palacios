@@ -724,6 +724,9 @@ footer h1 {
 
 
 @media (max-width: 768px) {
+    .close {
+        top: 0;
+    }
     .modal-content {
         max-height: 100%; /* Permite que o conteúdo utilize toda a altura da tela */
         overflow-y: auto; /* Garante a rolagem vertical */
@@ -909,16 +912,15 @@ footer h1 {
             position: absolute;
             top: 0;
             left: 0;
-            width: 70%; /* Largura do semi-círculo */
+            width: 100%; /* Largura do semi-círculo */
             height: 100%; /* 100% da altura do container */
             background-color: #C09A80;
             color: #fff;
-            border-radius: 100% 0 0 100%; /* Semicírculo vertical completo */
+            border-radius: 0; /* Semicírculo vertical completo */
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px; /* Espaço interno para o título */
-            transition: opacity 0.3s ease; /* Suaviza a visibilidade */
             opacity: 1; /* Sempre visível quando o card está centralizado */
         }
     
@@ -934,13 +936,9 @@ footer h1 {
         }
     
         .obrasCard:not(:focus):not(:hover) .semi-circle-panel {
-            left: -6%;
-            border-radius: 0;
-            width: 100%;
-            right: 0;
+
             opacity: 0.8;
-            text-align: center;
-            font-size: 0.8em;
+
         }
     
         .biografia .container {
@@ -999,7 +997,7 @@ footer h1 {
             background: #80221e;
             clip-path: circle(100px at 90% -15%);
             transition: 1s ease-out;
-        
+            overflow: hidden;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
