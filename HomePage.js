@@ -3,157 +3,153 @@ const modaisData = {
       cards: [
         {
           imgSrc: "assets/humanoBipolar.JPG",
-          titulo: "Bipolar",
+          titulo: "BIPOLAR",
           tecnica: "acrílico sobre tela screen",
-          dimensiones: "53 x 33 cm",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/humanp.jpeg",
-          titulo: "Título 2",
-          tecnica: "Técnica 2",
-          dimensiones: "Dimensões 2",
-          colorClass: "modal-color2"
-        },
+          dimensiones: "53 x 33 cm"
+          
+       },
         {
             imgSrc: "assets/humanoOraculo.JPG",
-            titulo: "El Oráculo",
+            titulo: "EL ORÁCULO",
             tecnica: "acrílico sobre papel artesanal y yute con plumas y ramas",
             dimensiones: "49 x 34 cm",
-            colorClass: "modal-color1"
+            
           },
         {
           imgSrc: "assets/humanoLadoOscuro.JPG",
-          titulo: "Todos tenemos un lado oscuro",
+          titulo: "TODOS TENEMOS UN LADO OBSCURO",
           tecnica: "mixta sobre cartón",
-          dimensiones: "82 x 67 cm",
-          colorClass: "modal-color2"
-        },
+          dimensiones: "82 x 67 cm"
+          
+       },
         {
           imgSrc: "assets/humanoSimbiosis.JPG",
-          titulo: "Simbiosis",
+          titulo: "SIMBIOSIS",
           tecnica: "acrílico sobre tela screen.",
-          dimensiones: "50 x 40 cm",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "50 x 40 cm"
+          
+       },
         {
           imgSrc: "assets/humanoObservador.JPG",
-          titulo: "El Observador",
+          titulo: "EL OBSERVADOR",
           tecnica: "acrílico sobre tela screen",
-          dimensiones: "52 x 42 cm",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "52 x 42 cm"
+          
+       },
         {
           imgSrc: "assets/humanoDeidad.JPG",
-          titulo: "Deidad Ancestral",
+          titulo: "DEIDAD ANCESTRAL",
           tecnica: "acrílico sobre tela screen",
-          dimensiones: "64 x 54 cm",
-          colorClass: "modal-color2"
-        },
-        {
-          imgSrc: "assets/humano.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "64 x 54 cm"
+          
+       },
         {
           imgSrc: "assets/bellamenteHumano1.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
-        },
-        {
-          imgSrc: "assets/bellamenteHumano2.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
-        {
-          imgSrc: "assets/bellamenteHumano3.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
+          titulo: "EL HADA DEL VACÍO",
+          descricao:"Soñar, aún que no se ha definido si es la realidad o una realidad aumentada. Intenta habitar el vacío, y el universo estallará dentro de ti.",
+          tecnica: "Mixta con rama sobre MDF",
+          dimensiones: "107 x 84 cm",
         },
         {
           imgSrc: "assets/bellamenteHumano4.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          titulo: "LA LOCA DE LA CASA",
+          descricao:"Joven aún, se liberó de la prisión de sus pensamientos y alcanzó una exquisita locura.",
+          tecnica: "mixta sobre cartón",
+          dimensiones: "84 x 63cm"
+          
+       },
         {
-          imgSrc: "assets/bellamenteHumano5.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
-        },
+          imgSrc: "assets/bellamenteHumano2.jpeg",
+          titulo: "LOS CINCO DESEOS",
+          descricao: "Deseo, posesión, egoísmo, sumisión, éxtasis... perdona por desear en este espacio y en este tiempo la totalidad de tu ser, para este mortal cualquiera.",
+          tecnica:"mixta sobre yute sobre madera",
+          dimensiones: "191 x 57cm"
+          
+       },
         {
-          imgSrc: "assets/bellamenteHumano6.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          imgSrc: "assets/bellamenteHumano3.jpeg",
+          titulo: "EL ONIRONAUTA",
+          descricao:"Navegante cósmico, poeta, viajero incasable en naves siderales.",
+          tecnica: "mixta sobre madera",
+          dimensiones: "38 x 28 cm"
+          
+       },
         {
           imgSrc: "assets/bellamenteHumano7.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
-        },
+          titulo: "ELLA MARTES, ELLA JUEVE",
+          descricao:"No era bipola, pero en cierts dísas, su clima interior mudaba a otros estaciones no terrenales.",
+          tecnica: "acrílico sobre cartón",
+          dimensiones: "100 x 65 cm"
+          
+       },
+        {
+          imgSrc: "assets/bellamenteHumano5.jpeg",
+          titulo: "NERUDA Y EL CARTERO",
+          tecnica: "acrílico sobre madera",
+          dimensiones: "80 x 60 cm"
+          
+       },
+        {
+          imgSrc: "assets/bellamenteHumano6.jpeg",
+          titulo: "INVITADO ESPECIAL: MAGRITTE",
+          tecnica: "acrílico sobre madera",
+          dimensiones: "110 x 70 cm"
+          
+       },
         {
           imgSrc: "assets/bellamenteHumano8.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          titulo: "NERUDA",
+          tecnica: "acrílico sobre madera",
+          dimensiones: "80 x 60 cm"
+          
+       },
         {
           imgSrc: "assets/bellamenteHumano9.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
-        },
+          descricao:"De tanto mirar afuera, se olvidó de vivir para sí",
+          titulo: "EL OBSERVADOR",
+          tecnica: "acrílico sobre cartón",
+          dimensiones: "30 x 65 cm"
+          
+       },
         {
           imgSrc: "assets/bellamenteHumano10.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          descricao:"Tus coreografías son duales: tu ser terreno y tu sombra etérea",
+          titulo: "BAILARINA",
+          tecnica: "óleo sobre cartón rojo",
+          dimensiones: "80 x 50 cm"
+          
+       },
         {
           imgSrc: "assets/bellamenteHumano11.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
-        },
+          descricao:"Intentandp traspassar tu cuerpo, me conrtí em híbrido personaje.",
+          titulo: "LOCURA MÍA, SI SOLO FUESE EL SEXO",
+          tecnica: "lápices de color sobre cartulina",
+          dimensiones: "75 x 45 cm"
+          
+       },
         {
           imgSrc: "assets/bellamenteHumano12.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          descricao:"Portada del libro del mismo nombre",
+          titulo: "EL ONIRONAUTA DEL MULTIVERSO",
+          tecnica: "acrílico sobre madera",
+          dimensiones: "55 x 45 cm"
+          
+       },
         {
           imgSrc: "assets/bellamenteHumano13.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
-        },
+          titulo: "ELLA Y EL BAJO LUNA LLENA",
+          descricao:"La luna llevanta el mar, y com éltodos los deseos más íntimos",
+          tecnica: "óleo sobre lienzo",
+          dimensiones: "60 x 40 cm"
+          
+       },
         {
           imgSrc: "assets/bellamenteHumano14.jpeg",
-          titulo: "",
-          tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
+          descricao:"Danzar no sólo es moverse, es articular cuerpo, mente, y espíritu al uníssono de la música que flota em el universo.",
+          titulo: "DANZANTE",
+          tecnica: "lápices de color sobre cartulina",
+          dimensiones: "80 x 58 cm",
+          
         }
       ]
     },
@@ -163,22 +159,22 @@ const modaisData = {
           imgSrc: "assets/caricaturaCR7.jpeg",
           titulo: "Cristiano Ronaldo",
           tecnica: "Técnica 3",
-          dimensiones: "Dimensões 3",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "Dimensões 3"
+          
+       },
         {
           imgSrc: "assets/caricaturaSuarez.jpeg",
           titulo: "Suarez",
           tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color2"
-        },
+          dimensiones: "Dimensões 4"
+          
+       },
         {
           imgSrc: "assets/caricaturaMessi.jpeg",
           titulo: "Messi",
           tecnica: "Técnica 4",
           dimensiones: "Dimensões 4",
-          colorClass: "modal-color2"
+          
         }
       ]
     },
@@ -188,57 +184,57 @@ const modaisData = {
           imgSrc: "assets/retrato1.jpeg",
           titulo: "",
           tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          dimensiones: ""
+          
+       },
         {
           imgSrc: "assets/retrato2.jpeg",
           titulo: "",
           tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
-        },
+          dimensiones: ""
+          
+       },
         {
           imgSrc: "assets/retrato3.jpeg",
           titulo: "",
           tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          dimensiones: ""
+          
+       },
         {
           imgSrc: "assets/retrato4.jpeg",
           titulo: "",
           tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
-        },
+          dimensiones: ""
+          
+       },
         {
           imgSrc: "assets/retrato5.jpeg",
           titulo: "",
           tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          dimensiones: ""
+          
+       },
         {
           imgSrc: "assets/retrato6.jpeg",
           titulo: "",
           tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color2"
-        },
+          dimensiones: ""
+          
+       },
         {
           imgSrc: "assets/retrato7.jpeg",
           titulo: "",
           tecnica: "",
-          dimensiones: "",
-          colorClass: "modal-color1"
-        },
+          dimensiones: ""
+          
+       },
         {
           imgSrc: "assets/retrato8.jpeg",
           titulo: "",
           tecnica: "",
           dimensiones: "",
-          colorClass: "modal-color1"
+          
         }
       ]
     },
@@ -248,29 +244,29 @@ const modaisData = {
           imgSrc: "assets/natBorboleta.png",
           titulo: "Título 3",
           tecnica: "Técnica 3",
-          dimensiones: "Dimensões 3",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "Dimensões 3"
+          
+       },
         {
           imgSrc: "assets/naturalezaarvore.png",
           titulo: "Título 4",
           tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color2"
-        },
+          dimensiones: "Dimensões 4"
+          
+       },
         {
           imgSrc: "assets/natUniverso.png",
           titulo: "Título 4",
           tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "Dimensões 4"
+          
+       },
         {
           imgSrc: "assets/naturalezaArb.jpeg",
           titulo: "Título 4",
           tecnica: "Técnica 4",
           dimensiones: "Dimensões 4",
-          colorClass: "modal-color2"
+          
         }
       ]
     },
@@ -280,71 +276,71 @@ const modaisData = {
           imgSrc: "assets/leyendasMujer.png",
           titulo: "Casa 1028",
           tecnica: "Técnica 3",
-          dimensiones: "69 x 72 x 47 x 68",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "69 x 72 x 47 x 68"
+          
+       },
         {
             imgSrc: "assets/casa10281.png",
             titulo: "Casa 1028",
             tecnica: "Técnica 3",
             dimensiones: "74 x 765 x 51 x 68",
-            colorClass: "modal-color2"
+            
           },
           {
             imgSrc: "assets/casa10282.png",
             titulo: "Casa 1028",
             tecnica: "Técnica 3",
             dimensiones: " 74 x 765 x 51 x 68",
-            colorClass: "modal-color1"
+            
           },
         {
           imgSrc: "assets/catuna2.png",
           titulo: "Catuña",
           tecnica: "Técnica 4",
-          dimensiones: "106 x 80",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "106 x 80"
+          
+       },
         {
           imgSrc: "assets/leyendasPacto.png",
           titulo: "Cantuña",
           tecnica: "Técnica 4",
-          dimensiones: "107 x 80",
-          colorClass: "modal-color2"
-        },
+          dimensiones: "107 x 80"
+          
+       },
         {
           imgSrc: "assets/elgallodelacatedral.png",
           titulo: "El Gallo de La Catedral",
           tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "Dimensões 4"
+          
+       },
         {
           imgSrc: "assets/elPadreAlmeida3.png",
           titulo: "El Padre Almeida",
           tecnica: "Técnica 4",
-          dimensiones: "36 x 172 x 74 x 146",
-          colorClass: "modal-color2"
-        },
+          dimensiones: "36 x 172 x 74 x 146"
+          
+       },
         {
           imgSrc: "assets/elPadreAlmeida2.png",
           titulo: "El Padre Almeida",
           tecnica: "Técnica 4",
-          dimensiones: "107 x 75",
-          colorClass: "modal-color1"
-        },
+          dimensiones: "107 x 75"
+          
+       },
         {
           imgSrc: "assets/elPadreAlmeida1.png",
           titulo: "El Padre Almeida",
           tecnica: "Técnica 4",
-          dimensiones: "107 x 75",
-          colorClass: "modal-color2"
-        },
+          dimensiones: "107 x 75"
+          
+       },
         {
           imgSrc: "assets/leyendasDuende.png",
           titulo: "El Duende",
           tecnica: "Técnica 4",
           dimensiones: "107 x 150 x 42.5 x 134",
-          colorClass: "modal-color1"
+          
         }
       ]
     },
@@ -355,35 +351,88 @@ const modaisData = {
             titulo: "Título 3",
             tecnica: "Técnica 3",
             dimensiones: "Dimensões 3",
-            colorClass: "modal-color1"
+            
           },
           {
             imgSrc: "assets/camisaM.png",
             titulo: "Título 4",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
-            colorClass: "modal-color2"
+            
           },
           {
             imgSrc: "assets/camisaF2.png",
             titulo: "Título 4",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
-            colorClass: "modal-color2"
+            
           },
           {
             imgSrc: "assets/camisaM2.png",
             titulo: "Título 4",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
-            colorClass: "modal-color1"
+            
           }          ,
           {
             imgSrc: "assets/camisaF3.png",
             titulo: "Título 4",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
-            colorClass: "modal-color1"
+            
+          }
+        ]
+      },
+      "modal-8": {
+        cards: [
+          {
+            imgSrc: "assets/tapices1.jpeg",
+            titulo: "Título 3",
+            tecnica: "Técnica 3",
+            dimensiones: "Dimensões 3",
+            
+          },
+          {
+            imgSrc: "assets/tapices2.jpeg",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            
+          },
+          {
+            imgSrc: "assets/tapices3.jpeg",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            
+          },
+          {
+            imgSrc: "assets/tapices4.jpeg",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            
+          },
+          {
+            imgSrc: "assets/tapices5.jpeg",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            
+          },
+          {
+            imgSrc: "assets/tapices6.jpeg",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            
+          },
+          {
+            imgSrc: "assets/tapices7.jpeg",
+            titulo: "Título 4",
+            tecnica: "Técnica 4",
+            dimensiones: "Dimensões 4",
+            
           }
         ]
       }
@@ -405,8 +454,9 @@ function createModal(modalId) {
       <img src="${card.imgSrc}" alt="${card.titulo}">
       <div class="caption">
         <h3>${card.titulo}</h3>
-        <p>Dimensões: ${card.dimensiones}</p>
-        <p>Técnica: ${card.tecnica}</p>
+        <h4>${card.descricao}</h4>
+        <p><strong>Dimensões:</strong> ${card.dimensiones}</p>
+        <p><strong>Técnica:</strong> ${card.tecnica}</p>
       </div>
     </div>
   `).join('');
@@ -530,7 +580,7 @@ function createModal(modalId) {
         buttonId: "modal-7"
       },
       {
-        imgSrc: "assets/image 66 (1).png",
+        imgSrc: "assets/tapices3.jpeg",
         title: "TAPICES",
         opacoClass: "color1",
         buttonId: "modal-8"
@@ -674,8 +724,8 @@ const decoracionesData = {
         imagens: ['imagem3.png', 'imagem4.png']
     },
     3: {
-        videos: ['assets/decRest.mp4', 'video6.mp4'],
-        imagens: ['imagem5.png', 'imagem6.png']
+        videos: ['assets/decRest.mp4'],
+        imagens: ['assets/restaurantes1.JPG', 'assets/restaurantes2.JPG', 'assets/restaurantes3.JPG', 'assets/restaurantes4.JPG', 'assets/restaurantes5.JPG']
     }
 };
 

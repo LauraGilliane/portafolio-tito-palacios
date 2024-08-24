@@ -260,6 +260,14 @@ section {
     background-color: #c1654b; /* Cor do semi-círculo */
     border-radius: 1000px 0 0 1000px; /* Arredonda a parte superior para criar o semi-círculo */
 }
+.semi-circle-right > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    right: 10px;
+}
 .rectangle {
     color: #fff;
     display: flex;
@@ -420,6 +428,10 @@ footer {
 
 .gallery-item {
     max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     color: black; 
     font-family: "Metrophobic", sans-serif;
@@ -436,6 +448,7 @@ footer {
 }
 
 .caption {
+    width: 50%;
     text-align: start;
     margin-top: 10px;
     font-size: 14px; /* Tamanho da fonte das legendas */
@@ -446,9 +459,14 @@ footer {
     font-size: 16px;
     font-weight: bold;
 }
+.caption h4 {
+    margin: 5px 0;
+    font-size: 10px;
+}
 
 .caption p {
     margin: 2px 0;
+    font-size: 0.8rem;
 }
 
   /* Modal Content/Box */
@@ -754,7 +772,9 @@ footer h1 {
     .caption h3 {
         font-size: 14px;
     }
-
+    .caption h4 {
+        font-size: 8px;
+    }
     .caption p {
         font-size: 12px;
     }
