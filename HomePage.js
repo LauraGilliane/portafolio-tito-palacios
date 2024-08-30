@@ -130,7 +130,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/bellamenteHumano11.jpeg",
-          descricao:"Intentandp traspassar tu cuerpo, me conrtí em híbrido personaje.",
+          descricao:"Intentando traspasar tu cuerpo, me convertí en híbrido personaje.",
           titulo: "LOCURA MÍA, SI SOLO FUESE EL SEXO",
           tecnica: "lápices de color sobre cartulina",
           dimensiones: "75 x 45 cm"
@@ -168,24 +168,24 @@ const modaisData = {
           imgSrc: "assets/caricaturaCR7.jpeg",
           descricao:"",
           titulo: "Cristiano Ronaldo",
-          tecnica: "Técnica 3",
-          dimensiones: "Dimensões 3"
+          tecnica: "-",
+          dimensiones: "-"
           
        },
         {
           imgSrc: "assets/caricaturaSuarez.jpeg",
           descricao:"",
           titulo: "Suarez",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4"
+          tecnica: "-",
+          dimensiones: "-"
           
        },
         {
           imgSrc: "assets/caricaturaMessi.jpeg",
           descricao:"",
           titulo: "Messi",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
+          tecnica: "-",
+          dimensiones: "-",
           
         }
       ]
@@ -194,66 +194,74 @@ const modaisData = {
       cards: [
         {
           imgSrc: "assets/retrato1.jpeg",
-          descricao:"",
-          titulo: "",
-          tecnica: "",
-          dimensiones: ""
+          descricao:"Puedo ver la eclosión de tu genética, vienes atravesando la niebla, te acercas al futuro, a tientas, confiando en la astronomía de la telaraña.",
+          titulo: "NÚBIL",
+          tecnica: "óleo y tinta sobre cartulina",
+          dimensiones: "78 x 58 cm"
           
        },
         {
           imgSrc: "assets/retrato2.jpeg",
           descricao:"",
-          titulo: "",
-          tecnica: "",
-          dimensiones: ""
+          titulo: "EL PERTUBADO VINCENT",
+          tecnica: "acrílico sobre lienzo",
+          dimensiones: "150 x 100 cm"
           
        },
         {
           imgSrc: "assets/retrato3.jpeg",
-          descricao:"",
-          titulo: "",
-          tecnica: "",
-          dimensiones: ""
+          descricao:"He aquí un personaje de Tumbaco, mujer tenaz y alegre, perseverando en la tradición culinaria.",
+          titulo: "MAMITA OTILIA",
+          tecnica: "lápices sobre cartulina",
+          dimensiones: "35 x 25 cm"
           
        },
         {
           imgSrc: "assets/retrato4.jpeg",
-          descricao:"",
-          titulo: "",
-          tecnica: "",
-          dimensiones: ""
+          descricao:"En medio de la función, qualquiera del público, pregunta no al personaje sino al actor, cuál es su papel en la vida.",
+          titulo: "PERSONAJE DEL TEATRO DEL OPRIMIDO",
+          tecnica: "acrílico sobre madera",
+          dimensiones: "38 x 28 cm"
           
        },
         {
           imgSrc: "assets/retrato5.jpeg",
-          descricao:"",
-          titulo: "",
-          tecnica: "",
-          dimensiones: ""
+          descricao:"Toda fijación es una dependencia... suelta todo!",
+          titulo: "LA FIJACIÓN DE M",
+          tecnica: "acrílico sobre lienzo",
+          dimensiones: "50 x 30 cm"
           
        },
         {
           imgSrc: "assets/retrato6.jpeg",
-          titulo: "",
-          descricao:"",
-          tecnica: "",
-          dimensiones: ""
+          titulo: "FLORECIENDO",
+          descricao:"Mujer semilla, mujer planta, expadiéndose en eje vertical.",
+          tecnica: "acrílico y bolígrafo sobre madera",
+          dimensiones: "121 x 121 cm"
           
        },
         {
           imgSrc: "assets/retrato7.jpeg",
-          titulo: "",
+          titulo: "NIUX",
           descricao:"",
-          tecnica: "",
-          dimensiones: ""
+          tecnica: "acrílico sobre madera",
+          dimensiones: "50 x 40 cm"
           
        },
         {
           imgSrc: "assets/retrato8.jpeg",
-          titulo: "",
+          titulo: "VISTA INTERIOR",
+          descricao:"... había cerrado sus ojos para verse y encontrarse. Allí, en un rincón de su corazón, estaba su niña perdida.",
+          tecnica: "óleo sobre lienzo",
+          dimensiones: "63 x 53 cm",
+          
+        },
+        {
+          imgSrc: "assets/retrato9.jpeg",
+          titulo: "ISMAEL",
           descricao:"",
-          tecnica: "",
-          dimensiones: "",
+          tecnica: "acrílico sobre madera",
+          dimensiones: "53 x 42 cm",
           
         }
       ]
@@ -262,72 +270,72 @@ const modaisData = {
       cards: [
         {
           imgSrc: "assets/temasvarios1.jpeg",
-          titulo: "",
+          titulo: "CON VISTA AL MAR",
           descricao:"",
-          tecnica: "",
-          dimensiones: ""
+          tecnica: "acrpilico sobre madera y ventana con plantas naturales",
+          dimensiones: "140 x 65 cm"
           
        },{
         imgSrc: "assets/temasvarios2.jpeg",
-        titulo: "",
+        titulo: "MÁSCASRA RITUAL",
         descricao:"",
-        tecnica: "",
-        dimensiones: ""
+        tecnica: "mixta sobre papel artesanal sobre yute",
+        dimensiones: "54 x 44 cm"
       },{
         imgSrc: "assets/temasvarios3.jpeg",
-        titulo: "",
-        descricao:"",
-        tecnica: "",
-        dimensiones: ""
+        titulo: "HABITANTES DEL INFRAMUNDO",
+        descricao:"Bajo tus pies, resuena el latido de la Tierra, allí están lon seres sin luz y el lenguaje secreto de los árboles.",
+        tecnica: "mixta sobre papel artesanal sobre yute",
+        dimensiones: "50 x 42 cm"
         
     },{
       imgSrc: "assets/temasvarios4.jpeg",
-      titulo: "",
-      descricao:"",
-      tecnica: "",
-      dimensiones: ""
+      titulo: "DIABLO UMA",
+      descricao:"Personaje principal en las fiestas de Corpus Cristi, es él quien anima a los danzantes.",
+      tecnica: "mixta sobre papel artesanal sobre yute",
+      dimensiones: "54 x 45 cm"
       
   },{
     imgSrc: "assets/temasvarios5.jpeg",
-    titulo: "",
-    descricao:"",
-    tecnica: "",
-    dimensiones: ""
+    titulo: "PARAÍSO PERDIDO (Fragmento)",
+    descricao:`Hubo una vez, no sólo árboles coloridos, también aves de aspecto extraño y plumaje extravagante, y también insectos y arañas... y todo bullĺa y era hermoso escuchar el crecimiento de los árboles.`,
+    tecnica: "acrílico sobre madera y marco pintado por el autor",
+    dimensiones: "110 × 65 cm"
     
   },{
     imgSrc: "assets/temasvarios6.jpeg",
-    titulo: "",
+    titulo: "REUNIÓN DE BRUJOS",
     descricao:"",
-    tecnica: "",
-    dimensiones: ""
+    tecnica: "acrílico sobre madera",
+    dimensiones: "38x28 cm"
     
   },{
     imgSrc: "assets/temasvarios7.jpeg",
-    titulo: "",
-    descricao:"",
-    tecnica: "",
-    dimensiones: ""
+    titulo: "BELINDA",
+    descricao:"Ella tiene un ojo oscuro y el otro azul pero no lo sabe, ella aborrece los espejos",
+    tecnica: "acrílico sobre madera",
+    dimensiones: "70 x 20 cm"
     
   },{
     imgSrc: "assets/temasvarios8.jpeg",
-    titulo: "",
-    descricao:"",
-    tecnica: "",
-    dimensiones: ""
+    titulo: "EL TAO",
+    descricao:"El Tao difícilmente se puede explicar, sólo se lo puede vivir.",
+    tecnica: "acrílico sobre madera",
+    dimensiones: "38 x 28 cm"
     
   },{
     imgSrc: "assets/temasvarios9.jpeg",
-    titulo: "",
-    descricao:"",
-    tecnica: "",
-    dimensiones: ""
+    titulo: "CONSTELACIÓN ANDINA",
+    descricao:"Nuestros ancestros visionarios encontraron en la observación del cosmos la armonía entre el ser y la naturaleza",
+    tecnica: "acrílico sobre yute sobre madera",
+    dimensiones: "208 x 47 cm"
     
   },{
     imgSrc: "assets/temasvarios10.jpeg",
-    titulo: "",
+    titulo: "EL ÁRBOL QUE QUISO CONOCER EL MAR",
     descricao:"",
-    tecnica: "",
-    dimensiones: ""
+    tecnica: "acrílico sobre madera",
+    dimensiones: "122 x 122 cm"
     
   },{
     imgSrc: "assets/temasvarios11.jpeg",
@@ -338,10 +346,10 @@ const modaisData = {
     
   },{
     imgSrc: "assets/temasvarios12.jpeg",
-    titulo: "",
+    titulo: "ELLA, AZUL",
     descricao:"",
-    tecnica: "",
-    dimensiones: ""
+    tecnica: "acrílico sobre madera",
+    dimensiones: "70 x 36 cm"
     
   },{
     imgSrc: "assets/temasvarios13.jpeg",
@@ -353,8 +361,29 @@ const modaisData = {
     <br>Colgado al filo de un deseo no concreto 
     <br>me dejo caer irremediablemente al oscuro misterio que es despertarla. `,
     titulo: "CERRADOS SUS OJOS",
-    tecnica: "",
-    dimensiones: ""
+    tecnica: "óleo sobre madera",
+    dimensiones: "122 x 82 cm"
+    
+  },{
+    imgSrc: "assets/temasvarios14.jpeg",
+    descricao:``,
+    titulo: "VAMPIRESA",
+    tecnica: "óleo sobre lienzo",
+    dimensiones: "40 x 30 cm"
+    
+  },{
+    imgSrc: "assets/temasvarios15.jpeg",
+    descricao:``,
+    titulo: "MUJER DE VALDIVIA",
+    tecnica: "óleo sobre lienzo",
+    dimensiones: "35 x 25 cm"
+    
+  },{
+    imgSrc: "assets/temasvarios16.jpeg",
+    descricao:`Quien no haya tenido al menos un arrebato de locura, pobre ser, qué horrible debe ser su vida.`,
+    titulo: "HISTORIA DE LA LOCURA",
+    tecnica: "óleo sobre lienzo",
+    dimensiones: "22 x 22 cm"
     
   }
       ]
@@ -362,37 +391,33 @@ const modaisData = {
     "modal-5": {
       cards: [
         {
-          imgSrc: "assets/natBorboleta.png",
-          titulo: "Título 3",
-          tecnica: "Técnica 3",
-          dimensiones: "Dimensões 3",
-          descricao:"",
-          
+          imgSrc: "assets/macetas1.jpeg",
+          titulo: "",
+          tecnica: "-",
+          dimensiones: "-",
+          descricao:"Utensilios reciclados",
        },
-        {
-          imgSrc: "assets/naturalezaarvore.png",
-          titulo: "Título 4",
-          descricao:"",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4"
-          
-       },
-        {
-          imgSrc: "assets/natUniverso.png",
-          titulo: "Título 4",
-          descricao:"",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4"
-          
-       },
-        {
-          imgSrc: "assets/naturalezaArb.jpeg",
-          titulo: "Título 4",
-          descricao:"",
-          tecnica: "Técnica 4",
-          dimensiones: "Dimensões 4",
-          
-        }
+       {
+        imgSrc: "assets/macetas2.jpeg",
+        titulo: "",
+        tecnica: "-",
+        dimensiones: "-",
+        descricao:"Utensilios reciclados",
+     },
+     {
+      imgSrc: "assets/macetas3.jpeg",
+      titulo: "",
+      tecnica: "-",
+      dimensiones: "-",
+      descricao:"Utensilios reciclados",
+      },
+      {
+        imgSrc: "assets/macetas4.jpeg",
+        titulo: "",
+        tecnica: "-",
+        dimensiones: "-",
+        descricao:"Utensilios reciclados",
+    }
       ]
     },
     "modal-6": {
@@ -483,42 +508,42 @@ const modaisData = {
         cards: [
           {
             imgSrc: "assets/camisaF.png",
-            titulo: "Título 3",
+            titulo: "Camiseta Feminina",
             descricao:"",
-            tecnica: "Técnica 3",
-            dimensiones: "Dimensões 3",
+            tecnica: "pintura a mano",
+            dimensiones: "S M y L",
             
           },
           {
             imgSrc: "assets/camisaM.png",
-            titulo: "Título 4",
+            titulo: "Camiseta Masculina",
             descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
+            tecnica: "pintura a mano",
+            dimensiones: "S M y L",
             
           },
           {
             imgSrc: "assets/camisaF2.png",
-            titulo: "Título 4",
+            titulo: "Camiseta Feminina",
             descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
+            tecnica: "pintura a mano",
+            dimensiones: "S M y L",
             
           },
           {
             imgSrc: "assets/camisaM2.png",
-            titulo: "Título 4",
+            titulo: "Camiseta Masculina",
             descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
+            tecnica: "pintura a mano",
+            dimensiones: "S M y L",
             
           }          ,
           {
             imgSrc: "assets/camisaF3.png",
-            titulo: "Título 4",
+            titulo: "Camiseta Feminina",
             descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
+            tecnica: "pintura a mano",
+            dimensiones: "S M y L",
             
           }
         ]
@@ -527,57 +552,41 @@ const modaisData = {
         cards: [
           {
             imgSrc: "assets/tapices1.jpeg",
-            titulo: "Título 3",
-            descricao:"",
-            tecnica: "Técnica 3",
-            dimensiones: "Dimensões 3",
+            titulo: "MÚSICA ANDINA",
+            descricao:"En el silencio profundo, entre glaciares y páramos, un silbido y un tambor, a veces alegre, a veces lastimero, rompe la monotonía de ocres y verdes.",
+            tecnica: "acrílico y cuerdas sobre yute",
+            dimensiones: "160 x 100 cm",
           },
           {
             imgSrc: "assets/tapices2.jpeg",
-            titulo: "Título 4",
-            descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
+            titulo: "QUÉ NOTA... LLUEVE... LLANTO SOBRE LLANTO",
+            descricao:"Me hiciste carne de tus más ruines deseos.",
+            tecnica: "acrílico sobre lienzo, sobre yute + bambu + tenedores",
+            dimensiones: "120 x 70 cm",
             
           },
           {
             imgSrc: "assets/tapices3.jpeg",
-            titulo: "Título 4",
-            descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
-            
-          },
-          {
-            imgSrc: "assets/tapices4.jpeg",
-            titulo: "Título 4",
-            descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
+            titulo: "SOLO LOS DIOSES PUEDEN PROMETER",
+            descricao:"Una promesa amorosa, temeral, intenta sobrevivir a la breve temporalidad de un sentimiento humano.",
+            tecnica: "acrílico, piezas de tela, cintas sobre yute",
+            dimensiones: "128 x 70 cm",
             
           },
           {
             imgSrc: "assets/tapices5.jpeg",
-            titulo: "Título 4",
+            titulo: "FLORA NOCTURNA",
             descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
+            tecnica: "acrílico sobre papel y yute",
+            dimensiones: "65 x 40 cm",
             
           },
           {
             imgSrc: "assets/tapices6.jpeg",
-            titulo: "Título 4",
-            descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
-            
-          },
-          {
-            imgSrc: "assets/tapices7.jpeg",
-            titulo: "Título 4",
-            descricao:"",
-            tecnica: "Técnica 4",
-            dimensiones: "Dimensões 4",
+            titulo: "LA OTRA PARTE QUE FALTA ERES TÚ",
+            descricao:"Intetar entender la naturaleza feminina y su geometría cósmica es acercarse a un portal hasta hoy insondable.",
+            tecnica: "acrílico sobre yute + madera",
+            dimensiones: "125 x 140 cm (aprox)",
             
           }
         ]
@@ -708,8 +717,8 @@ function createModal(modalId) {
         buttonId: "modal-4"
       },
       {
-        imgSrc: "assets/naturalezaarvore.png",
-        title: "NATURALEZA",
+        imgSrc: "assets/macetas2.jpeg",
+        title: "MACETAS",
         opacoClass: "color2",
         buttonId: "modal-5"
       },
@@ -850,63 +859,55 @@ document.querySelectorAll('.shape-center, .shape-horizontal').forEach((shape) =>
 
 const decoracionesData = {
     1: {
-        imagens: ['imagem1.png', 'imagem2.png']
+        imagens: ['assets/artesenlascalles.jpeg']
     },
     2: {
-        imagens: ['imagem3.png', 'imagem4.png']
+        imagens: ['assets/murales1.jpeg', 'assets/murales2.jpeg','assets/murales3.jpeg','assets/murales4.jpeg']
     },
     3: {
-        imagens: ['assets/restaurantes1.JPG', 'assets/restaurantes2.JPG', 'assets/restaurantes3.JPG', 'assets/restaurantes4.JPG', 'assets/restaurantes5.JPG']
+        imagens: ['assets/restaurantes.jpeg', 'assets/restaurantes1.JPG', 'assets/restaurantes2.JPG', 'assets/restaurantes3.JPG', 'assets/restaurantes4.JPG', 'assets/restaurantes5.JPG']
     }
 };
 
-// Função para criar e mostrar o modal-decoracion
 function createDecoracionModal(decoracionId) {
-    const decoracionData = decoracionesData[decoracionId];
-    if (!decoracionData) return;
+  const decoracionData = decoracionesData[decoracionId];
+  if (!decoracionData) return null; // Retornar null se não houver dados
 
-    const modalDecoracion = document.createElement('div');
-    modalDecoracion.id = `modal-decoracion-${decoracionId}`;
-    modalDecoracion.className = 'modal-decoracion';
+  const modalDecoracion = document.createElement('div');
+  modalDecoracion.id = `modal-decoracion-${decoracionId}`;
+  modalDecoracion.className = 'modal-decoracion';
 
-    // Função para criar conteúdo do modal
-    const createContent = (items, type) => {
-        return items.map(item => type === 'video' ? `
-            <video controls>
-                <source src="${item}" type="video/mp4">
-                Seu navegador não suporta a tag de vídeo.
-            </video>
-        ` : `
-            <img src="${item}" alt="Imagem Decoracion">
-        `).join('');
-    };
+  // Criação do conteúdo do modal
+  const createContent = (items) => {
+      if (!items) return ''; // Verificação para itens nulos ou indefinidos
+      return items.map(item => `<img src="${item}" alt="Imagem Decoracion">`).join('');
+  };
 
-    const videosHtml = createContent(decoracionData.videos, 'video');
-    const imagensHtml = createContent(decoracionData.imagens, 'image');
+  const imagensHtml = createContent(decoracionData.imagens);
 
-    modalDecoracion.innerHTML = `
-        <div class="modal-decoracion-content">
-            <span class="modal-decoracion-close">&times;</span>
-            <div class="modal-decoracion-body">
-                ${videosHtml}
-                ${imagensHtml}
-            </div>
-        </div>
-    `;
+  modalDecoracion.innerHTML = `
+      <div class="modal-decoracion-content">
+          <span class="modal-decoracion-close">&times;</span>
+          <div class="modal-decoracion-body">
+              ${imagensHtml}
+          </div>
+      </div>
+  `;
 
-    document.body.appendChild(modalDecoracion);
+  document.body.appendChild(modalDecoracion);
 
-    modalDecoracion.querySelector('.modal-decoracion-close').addEventListener('click', () => {
-        modalDecoracion.style.display = 'none';
-    });
+  // Eventos de clique para fechar o modal
+  modalDecoracion.querySelector('.modal-decoracion-close').addEventListener('click', () => {
+      modalDecoracion.style.display = 'none';
+  });
 
-    window.addEventListener('click', (event) => {
-        if (event.target === modalDecoracion) {
-            modalDecoracion.style.display = 'none';
-        }
-    });
+  window.addEventListener('click', (event) => {
+      if (event.target === modalDecoracion) {
+          modalDecoracion.style.display = 'none';
+      }
+  });
 
-    return modalDecoracion;
+  return modalDecoracion; // Retorna o modal criado
 }
 
 // Adicione event listeners aos itens
