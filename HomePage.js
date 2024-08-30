@@ -4,12 +4,14 @@ const modaisData = {
         {
           imgSrc: "assets/humanoBipolar.JPG",
           titulo: "BIPOLAR",
+          descricao:"",
           tecnica: "acrílico sobre tela screen",
           dimensiones: "53 x 33 cm"
           
        },
         {
             imgSrc: "assets/humanoOraculo.JPG",
+            descricao:"",
             titulo: "EL ORÁCULO",
             tecnica: "acrílico sobre papel artesanal y yute con plumas y ramas",
             dimensiones: "49 x 34 cm",
@@ -17,6 +19,7 @@ const modaisData = {
           },
         {
           imgSrc: "assets/humanoLadoOscuro.JPG",
+          descricao:"",
           titulo: "TODOS TENEMOS UN LADO OBSCURO",
           tecnica: "mixta sobre cartón",
           dimensiones: "82 x 67 cm"
@@ -24,6 +27,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/humanoSimbiosis.JPG",
+          descricao:"",
           titulo: "SIMBIOSIS",
           tecnica: "acrílico sobre tela screen.",
           dimensiones: "50 x 40 cm"
@@ -31,6 +35,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/humanoObservador.JPG",
+          descricao:"",
           titulo: "EL OBSERVADOR",
           tecnica: "acrílico sobre tela screen",
           dimensiones: "52 x 42 cm"
@@ -38,6 +43,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/humanoDeidad.JPG",
+          descricao:"",
           titulo: "DEIDAD ANCESTRAL",
           tecnica: "acrílico sobre tela screen",
           dimensiones: "64 x 54 cm"
@@ -84,6 +90,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/bellamenteHumano5.jpeg",
+          descricao:"",
           titulo: "NERUDA Y EL CARTERO",
           tecnica: "acrílico sobre madera",
           dimensiones: "80 x 60 cm"
@@ -91,6 +98,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/bellamenteHumano6.jpeg",
+          descricao:"",
           titulo: "INVITADO ESPECIAL: MAGRITTE",
           tecnica: "acrílico sobre madera",
           dimensiones: "110 x 70 cm"
@@ -98,6 +106,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/bellamenteHumano8.jpeg",
+          descricao:"",
           titulo: "NERUDA",
           tecnica: "acrílico sobre madera",
           dimensiones: "80 x 60 cm"
@@ -157,6 +166,7 @@ const modaisData = {
       cards: [
         {
           imgSrc: "assets/caricaturaCR7.jpeg",
+          descricao:"",
           titulo: "Cristiano Ronaldo",
           tecnica: "Técnica 3",
           dimensiones: "Dimensões 3"
@@ -164,6 +174,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/caricaturaSuarez.jpeg",
+          descricao:"",
           titulo: "Suarez",
           tecnica: "Técnica 4",
           dimensiones: "Dimensões 4"
@@ -171,6 +182,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/caricaturaMessi.jpeg",
+          descricao:"",
           titulo: "Messi",
           tecnica: "Técnica 4",
           dimensiones: "Dimensões 4",
@@ -182,6 +194,7 @@ const modaisData = {
       cards: [
         {
           imgSrc: "assets/retrato1.jpeg",
+          descricao:"",
           titulo: "",
           tecnica: "",
           dimensiones: ""
@@ -189,6 +202,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/retrato2.jpeg",
+          descricao:"",
           titulo: "",
           tecnica: "",
           dimensiones: ""
@@ -196,6 +210,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/retrato3.jpeg",
+          descricao:"",
           titulo: "",
           tecnica: "",
           dimensiones: ""
@@ -203,6 +218,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/retrato4.jpeg",
+          descricao:"",
           titulo: "",
           tecnica: "",
           dimensiones: ""
@@ -210,6 +226,7 @@ const modaisData = {
        },
         {
           imgSrc: "assets/retrato5.jpeg",
+          descricao:"",
           titulo: "",
           tecnica: "",
           dimensiones: ""
@@ -218,6 +235,7 @@ const modaisData = {
         {
           imgSrc: "assets/retrato6.jpeg",
           titulo: "",
+          descricao:"",
           tecnica: "",
           dimensiones: ""
           
@@ -225,6 +243,7 @@ const modaisData = {
         {
           imgSrc: "assets/retrato7.jpeg",
           titulo: "",
+          descricao:"",
           tecnica: "",
           dimensiones: ""
           
@@ -232,6 +251,7 @@ const modaisData = {
         {
           imgSrc: "assets/retrato8.jpeg",
           titulo: "",
+          descricao:"",
           tecnica: "",
           dimensiones: "",
           
@@ -243,89 +263,100 @@ const modaisData = {
         {
           imgSrc: "assets/temasvarios1.jpeg",
           titulo: "",
+          descricao:"",
           tecnica: "",
           dimensiones: ""
           
        },{
         imgSrc: "assets/temasvarios2.jpeg",
         titulo: "",
+        descricao:"",
+        tecnica: "",
+        dimensiones: ""
+      },{
+        imgSrc: "assets/temasvarios3.jpeg",
+        titulo: "",
+        descricao:"",
         tecnica: "",
         dimensiones: ""
         
-     },{
-      imgSrc: "assets/temasvarios3.jpeg",
+    },{
+      imgSrc: "assets/temasvarios4.jpeg",
       titulo: "",
+      descricao:"",
       tecnica: "",
       dimensiones: ""
       
-   },{
-    imgSrc: "assets/temasvarios4.jpeg",
+  },{
+    imgSrc: "assets/temasvarios5.jpeg",
     titulo: "",
+    descricao:"",
     tecnica: "",
     dimensiones: ""
     
- },{
-  imgSrc: "assets/temasvarios5.jpeg",
-  titulo: "",
-  tecnica: "",
-  dimensiones: ""
-  
-},{
-  imgSrc: "assets/temasvarios6.jpeg",
-  titulo: "",
-  tecnica: "",
-  dimensiones: ""
-  
-},{
-  imgSrc: "assets/temasvarios7.jpeg",
-  titulo: "",
-  tecnica: "",
-  dimensiones: ""
-  
-},{
-  imgSrc: "assets/temasvarios8.jpeg",
-  titulo: "",
-  tecnica: "",
-  dimensiones: ""
-  
-},{
-  imgSrc: "assets/temasvarios9.jpeg",
-  titulo: "",
-  tecnica: "",
-  dimensiones: ""
-  
-},{
-  imgSrc: "assets/temasvarios10.jpeg",
-  titulo: "",
-  tecnica: "",
-  dimensiones: ""
-  
-},{
-  imgSrc: "assets/temasvarios11.jpeg",
-  titulo: "",
-  tecnica: "",
-  dimensiones: ""
-  
-},{
-  imgSrc: "assets/temasvarios12.jpeg",
-  titulo: "",
-  tecnica: "",
-  dimensiones: ""
-  
-},{
-  imgSrc: "assets/temasvarios13.jpeg",
-  descricao:`Parece más vulnerable cuando duerme, ensoñando, desconectada en su cama, me tienta.. me tantea
-  <br>me transformo en pulpo o en araña o en su amante.
-  <br>No la toco, la pinto con mi lengua
-  <br>no me habla, está ocupada respurando
-  <br>no me mira, pues me embrujaría.
-  <br>Colgado al filo de un deseo no concreto 
-  <br>me dejo caer irremediablemente al oscuro misterio que es despertarla. `,
-  titulo: "CERRADOS SUS OJOS",
-  tecnica: "",
-  dimensiones: ""
-  
-}
+  },{
+    imgSrc: "assets/temasvarios6.jpeg",
+    titulo: "",
+    descricao:"",
+    tecnica: "",
+    dimensiones: ""
+    
+  },{
+    imgSrc: "assets/temasvarios7.jpeg",
+    titulo: "",
+    descricao:"",
+    tecnica: "",
+    dimensiones: ""
+    
+  },{
+    imgSrc: "assets/temasvarios8.jpeg",
+    titulo: "",
+    descricao:"",
+    tecnica: "",
+    dimensiones: ""
+    
+  },{
+    imgSrc: "assets/temasvarios9.jpeg",
+    titulo: "",
+    descricao:"",
+    tecnica: "",
+    dimensiones: ""
+    
+  },{
+    imgSrc: "assets/temasvarios10.jpeg",
+    titulo: "",
+    descricao:"",
+    tecnica: "",
+    dimensiones: ""
+    
+  },{
+    imgSrc: "assets/temasvarios11.jpeg",
+    titulo: "",
+    descricao:"",
+    tecnica: "",
+    dimensiones: ""
+    
+  },{
+    imgSrc: "assets/temasvarios12.jpeg",
+    titulo: "",
+    descricao:"",
+    tecnica: "",
+    dimensiones: ""
+    
+  },{
+    imgSrc: "assets/temasvarios13.jpeg",
+    descricao:`Parece más vulnerable cuando duerme, ensoñando, desconectada en su cama, me tienta.. me tantea
+    <br>me transformo en pulpo o en araña o en su amante.
+    <br>No la toco, la pinto con mi lengua
+    <br>no me habla, está ocupada respurando
+    <br>no me mira, pues me embrujaría.
+    <br>Colgado al filo de un deseo no concreto 
+    <br>me dejo caer irremediablemente al oscuro misterio que es despertarla. `,
+    titulo: "CERRADOS SUS OJOS",
+    tecnica: "",
+    dimensiones: ""
+    
+  }
       ]
     },
     "modal-5": {
@@ -334,12 +365,14 @@ const modaisData = {
           imgSrc: "assets/natBorboleta.png",
           titulo: "Título 3",
           tecnica: "Técnica 3",
-          dimensiones: "Dimensões 3"
+          dimensiones: "Dimensões 3",
+          descricao:"",
           
        },
         {
           imgSrc: "assets/naturalezaarvore.png",
           titulo: "Título 4",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "Dimensões 4"
           
@@ -347,6 +380,7 @@ const modaisData = {
         {
           imgSrc: "assets/natUniverso.png",
           titulo: "Título 4",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "Dimensões 4"
           
@@ -354,6 +388,7 @@ const modaisData = {
         {
           imgSrc: "assets/naturalezaArb.jpeg",
           titulo: "Título 4",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "Dimensões 4",
           
@@ -365,6 +400,7 @@ const modaisData = {
         {
           imgSrc: "assets/leyendasMujer.png",
           titulo: "Casa 1028",
+          descricao:"",
           tecnica: "Técnica 3",
           dimensiones: "69 x 72 x 47 x 68"
           
@@ -372,6 +408,7 @@ const modaisData = {
         {
             imgSrc: "assets/casa10281.png",
             titulo: "Casa 1028",
+            descricao:"",
             tecnica: "Técnica 3",
             dimensiones: "74 x 765 x 51 x 68",
             
@@ -380,12 +417,14 @@ const modaisData = {
             imgSrc: "assets/casa10282.png",
             titulo: "Casa 1028",
             tecnica: "Técnica 3",
+            descricao:"",
             dimensiones: " 74 x 765 x 51 x 68",
             
           },
         {
           imgSrc: "assets/catuna2.png",
           titulo: "Catuña",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "106 x 80"
           
@@ -393,6 +432,7 @@ const modaisData = {
         {
           imgSrc: "assets/leyendasPacto.png",
           titulo: "Cantuña",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "107 x 80"
           
@@ -400,6 +440,7 @@ const modaisData = {
         {
           imgSrc: "assets/elgallodelacatedral.png",
           titulo: "El Gallo de La Catedral",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "Dimensões 4"
           
@@ -407,6 +448,7 @@ const modaisData = {
         {
           imgSrc: "assets/elPadreAlmeida3.png",
           titulo: "El Padre Almeida",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "36 x 172 x 74 x 146"
           
@@ -414,6 +456,7 @@ const modaisData = {
         {
           imgSrc: "assets/elPadreAlmeida2.png",
           titulo: "El Padre Almeida",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "107 x 75"
           
@@ -421,6 +464,7 @@ const modaisData = {
         {
           imgSrc: "assets/elPadreAlmeida1.png",
           titulo: "El Padre Almeida",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "107 x 75"
           
@@ -428,6 +472,7 @@ const modaisData = {
         {
           imgSrc: "assets/leyendasDuende.png",
           titulo: "El Duende",
+          descricao:"",
           tecnica: "Técnica 4",
           dimensiones: "107 x 150 x 42.5 x 134",
           
@@ -439,6 +484,7 @@ const modaisData = {
           {
             imgSrc: "assets/camisaF.png",
             titulo: "Título 3",
+            descricao:"",
             tecnica: "Técnica 3",
             dimensiones: "Dimensões 3",
             
@@ -446,6 +492,7 @@ const modaisData = {
           {
             imgSrc: "assets/camisaM.png",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
@@ -453,6 +500,7 @@ const modaisData = {
           {
             imgSrc: "assets/camisaF2.png",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
@@ -460,6 +508,7 @@ const modaisData = {
           {
             imgSrc: "assets/camisaM2.png",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
@@ -467,6 +516,7 @@ const modaisData = {
           {
             imgSrc: "assets/camisaF3.png",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
@@ -478,13 +528,14 @@ const modaisData = {
           {
             imgSrc: "assets/tapices1.jpeg",
             titulo: "Título 3",
+            descricao:"",
             tecnica: "Técnica 3",
             dimensiones: "Dimensões 3",
-            
           },
           {
             imgSrc: "assets/tapices2.jpeg",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
@@ -492,6 +543,7 @@ const modaisData = {
           {
             imgSrc: "assets/tapices3.jpeg",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
@@ -499,6 +551,7 @@ const modaisData = {
           {
             imgSrc: "assets/tapices4.jpeg",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
@@ -506,6 +559,7 @@ const modaisData = {
           {
             imgSrc: "assets/tapices5.jpeg",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
@@ -513,6 +567,7 @@ const modaisData = {
           {
             imgSrc: "assets/tapices6.jpeg",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
@@ -520,6 +575,7 @@ const modaisData = {
           {
             imgSrc: "assets/tapices7.jpeg",
             titulo: "Título 4",
+            descricao:"",
             tecnica: "Técnica 4",
             dimensiones: "Dimensões 4",
             
