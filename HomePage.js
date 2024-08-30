@@ -865,7 +865,7 @@ const decoracionesData = {
         imagens: ['assets/murales1.jpeg', 'assets/murales2.jpeg','assets/murales3.jpeg','assets/murales4.jpeg']
     },
     3: {
-        imagens: ['assets/restaurantes.jpeg', 'assets/restaurantes1.JPG', 'assets/restaurantes2.JPG', 'assets/restaurantes3.JPG', 'assets/restaurantes4.JPG', 'assets/restaurantes5.JPG']
+        imagens: ['assets/rastaurantes.jpeg', 'assets/restaurantes1.JPG', 'assets/restaurantes2.JPG', 'assets/restaurantes3.JPG', 'assets/restaurantes4.JPG', 'assets/restaurantes5.JPG']
     }
 };
 
