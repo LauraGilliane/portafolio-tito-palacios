@@ -238,6 +238,96 @@ const modaisData = {
         }
       ]
     },
+    "modal-4": {
+      cards: [
+        {
+          imgSrc: "assets/temasvarios1.jpeg",
+          titulo: "",
+          tecnica: "",
+          dimensiones: ""
+          
+       },{
+        imgSrc: "assets/temasvarios2.jpeg",
+        titulo: "",
+        tecnica: "",
+        dimensiones: ""
+        
+     },{
+      imgSrc: "assets/temasvarios3.jpeg",
+      titulo: "",
+      tecnica: "",
+      dimensiones: ""
+      
+   },{
+    imgSrc: "assets/temasvarios4.jpeg",
+    titulo: "",
+    tecnica: "",
+    dimensiones: ""
+    
+ },{
+  imgSrc: "assets/temasvarios5.jpeg",
+  titulo: "",
+  tecnica: "",
+  dimensiones: ""
+  
+},{
+  imgSrc: "assets/temasvarios6.jpeg",
+  titulo: "",
+  tecnica: "",
+  dimensiones: ""
+  
+},{
+  imgSrc: "assets/temasvarios7.jpeg",
+  titulo: "",
+  tecnica: "",
+  dimensiones: ""
+  
+},{
+  imgSrc: "assets/temasvarios8.jpeg",
+  titulo: "",
+  tecnica: "",
+  dimensiones: ""
+  
+},{
+  imgSrc: "assets/temasvarios9.jpeg",
+  titulo: "",
+  tecnica: "",
+  dimensiones: ""
+  
+},{
+  imgSrc: "assets/temasvarios10.jpeg",
+  titulo: "",
+  tecnica: "",
+  dimensiones: ""
+  
+},{
+  imgSrc: "assets/temasvarios11.jpeg",
+  titulo: "",
+  tecnica: "",
+  dimensiones: ""
+  
+},{
+  imgSrc: "assets/temasvarios12.jpeg",
+  titulo: "",
+  tecnica: "",
+  dimensiones: ""
+  
+},{
+  imgSrc: "assets/temasvarios13.jpeg",
+  descricao:`Parece más vulnerable cuando duerme, ensoñando, desconectada en su cama, me tienta.. me tantea
+  <br>me transformo en pulpo o en araña o en su amante.
+  <br>No la toco, la pinto con mi lengua
+  <br>no me habla, está ocupada respurando
+  <br>no me mira, pues me embrujaría.
+  <br>Colgado al filo de un deseo no concreto 
+  <br>me dejo caer irremediablemente al oscuro misterio que es despertarla. `,
+  titulo: "CERRADOS SUS OJOS",
+  tecnica: "",
+  dimensiones: ""
+  
+}
+      ]
+    },
     "modal-5": {
       cards: [
         {
@@ -556,8 +646,8 @@ function createModal(modalId) {
         buttonId: "modal-3"
       },
       {
-        imgSrc: "assets/image 66 (1).png",
-        title: "Pintura En Tela",
+        imgSrc: "assets/temasvarios8.jpeg",
+        title: "TEMAS VARIOS",
         opacoClass: "color2",
         buttonId: "modal-4"
       },
