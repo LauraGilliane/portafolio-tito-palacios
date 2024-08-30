@@ -751,10 +751,6 @@ const talleresData = {
         titulo: "Título Taller 1",
         descricao: "Descrição detalhada do Taller 1.",
         imgSrc: "assets/nocambiasPropaganda.jpeg",
-        videos: [
-            "assets/video1.mp4",
-            "assets/video2.mp4"
-        ],
         imagens: [
             "assets/image1.png",
             "assets/image2.png"
@@ -768,10 +764,6 @@ const talleresData = {
         Cada clase estuvo llena de momentos de introspección, pero también de colaboración, donde los participantes compartieron sus experiencias y aprendieron unos de otros. El taller no solo se centró en la teoría, sino que fue eminentemente práctico, con actividades diseñadas para aplicar los conceptos en la vida diaria.<br>
         Al final del curso, los participantes no solo adquirieron nuevas habilidades y herramientas, sino que también experimentaron una transformación personal significativa. Muchos de ellos reportaron sentirse más en control de sus pensamientos, más equilibrados emocionalmente, y con una mayor sensación de bienestar y satisfacción en sus vidas. El curso culminó con una reflexión sobre el viaje recorrido y la transformación alcanzada, dejando a los participantes con un sentido de logro y la motivación para continuar su crecimiento personal fuera del aula.`,
         imgSrc: "assets/nocambiasPropaganda.jpeg",
-        videos: [
-            "assets/nocambies.mp4",
-            "assets/video4.mp4"
-        ],
         imagens: [
             "assets/image3.png",
             "assets/image4.png"
@@ -781,10 +773,6 @@ const talleresData = {
         titulo: "Título Taller 3",
         descricao: "Descrição detalhada do Taller 3.",
         imgSrc: "assets/taller-image3.png",
-        videos: [
-            "assets/video5.mp4",
-            "assets/video6.mp4"
-        ],
         imagens: [
             "assets/image5.png",
             "assets/image6.png"
@@ -862,15 +850,12 @@ document.querySelectorAll('.shape-center, .shape-horizontal').forEach((shape) =>
 
 const decoracionesData = {
     1: {
-        videos: ['assets/nocambies.mp4', 'video2.mp4'],
         imagens: ['imagem1.png', 'imagem2.png']
     },
     2: {
-        videos: ['video3.mp4', 'video4.mp4'],
         imagens: ['imagem3.png', 'imagem4.png']
     },
     3: {
-        videos: ['assets/decRest.mp4'],
         imagens: ['assets/restaurantes1.JPG', 'assets/restaurantes2.JPG', 'assets/restaurantes3.JPG', 'assets/restaurantes4.JPG', 'assets/restaurantes5.JPG']
     }
 };
